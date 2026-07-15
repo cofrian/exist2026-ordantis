@@ -79,31 +79,32 @@ distribution — a post-processing rather than a modeling problem (see the paper
 
 ## Architecture (GEMF)
 
-```
-                         ┌─────────────────────────────────────────────┐
-   Meme image  ─────────▶│  Gemini (OFFLINE, one call per meme)         │
-                         │  → description, sexism analysis, reasoning,  │
-                         │    intention/irony cues, zero-shot probs     │
-                         └───────────────┬─────────────────────────────┘
-                                         │ enriched text        │ numeric features / probs
-   OCR text ──────┐                      ▼                      │
-                  └──▶ concat ──▶ XLM-RoBERTa (max 512)          │ (auxiliary features
-                                  or mult. Longformer (max 1100) │  and optional blend)
-                                  + masked mean pooling          │
-                                  → h_text ∈ ℝ⁷⁶⁸                │
-   EEG {subjects} ──▶ Set Attention Pooling  → h_EEG ∈ ℝ²⁵⁶      │
-   Ekman emotions ──▶ 7-dim probs            → h_emo ∈ ℝ⁷        │
-                                  │                              │
-                                  ▼  concat (+ Gemini features)  │
-                          Shared MLP trunk ◀─────────────────────┘
-                                  │
-                 ┌────────────────┼────────────────────┐
-        2.1 Binary head   2.2 Hierarchical head   2.3 Conditional multi-label head
-        P(YES)=σ(·)       P(NO)=1−pₛ; DIRECT/JUDG  P(cᵢ)=P(sexist)·P(cᵢ|sexist)
+```mermaid
+flowchart TD
+    IMG["Meme image"] --> GEM["Gemini (OFFLINE) — one call per meme<br/>description · sexism analysis · reasoning<br/>intention / irony cues · zero-shot probs"]
+    OCR["OCR text"] --> CC["concat: OCR + enriched text"]
+    GEM -->|enriched text| CC
+    CC --> ENC["XLM-RoBERTa (max 512)<br/>or mult. Longformer (max 1100)<br/>+ masked mean pooling"]
+    ENC --> HT["h_text ∈ ℝ⁷⁶⁸"]
+    EEG["EEG { subjects }"] --> SAP["Set Attention Pooling"] --> HE["h_EEG ∈ ℝ²⁵⁶"]
+    EK["Ekman emotions"] --> P7["7-dim probs"] --> HM["h_emo ∈ ℝ⁷"]
+    GEM -.->|numeric features / probs| GF["Gemini features<br/>(+ optional probability blend)"]
+    HT --> FUSE["Concatenation + shared MLP trunk<br/>ℝ¹⁰³¹ / ℝ¹⁰³⁸ / ℝ¹⁰³⁷"]
+    HE --> FUSE
+    HM --> FUSE
+    GF -.-> FUSE
+    FUSE --> H21["2.1 Binary head<br/>P(YES) = σ(·)"]
+    FUSE --> H22["2.2 Hierarchical head<br/>P(NO) = 1 − pₛ ; DIRECT / JUDG"]
+    FUSE --> H23["2.3 Conditional multi-label head<br/>P(cᵢ) = P(sexist) · P(cᵢ | sexist)"]
+    classDef gemini fill:#e8ddff,stroke:#7c4dff,color:#000
+    classDef head fill:#dff5e1,stroke:#2e9e50,color:#000
+    class GEM,GF gemini
+    class H21,H22,H23 head
 ```
 
 See [`docs/architecture.md`](docs/architecture.md) for the full description and the fusion
-dimensions (ℝ¹⁰³¹ / ℝ¹⁰³⁸ / ℝ¹⁰³⁷).
+dimensions (ℝ¹⁰³¹ / ℝ¹⁰³⁸ / ℝ¹⁰³⁷). The diagram is [Mermaid](https://mermaid.live) — GitHub renders
+it automatically; edit it at [mermaid.live](https://mermaid.live).
 
 ---
 

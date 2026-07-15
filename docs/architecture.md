@@ -4,6 +4,29 @@
 replaces the raw visual branch of a conventional multimodal model with **Gemini-generated text**,
 and trains on **soft annotator-distribution targets**.
 
+```mermaid
+flowchart TD
+    IMG["Meme image"] --> GEM["Gemini (OFFLINE) — one call per meme<br/>description · sexism analysis · reasoning<br/>intention / irony cues · zero-shot probs"]
+    OCR["OCR text"] --> CC["concat: OCR + enriched text"]
+    GEM -->|enriched text| CC
+    CC --> ENC["XLM-RoBERTa (max 512)<br/>or mult. Longformer (max 1100)<br/>+ masked mean pooling"]
+    ENC --> HT["h_text ∈ ℝ⁷⁶⁸"]
+    EEG["EEG { subjects }"] --> SAP["Set Attention Pooling"] --> HE["h_EEG ∈ ℝ²⁵⁶"]
+    EK["Ekman emotions"] --> P7["7-dim probs"] --> HM["h_emo ∈ ℝ⁷"]
+    GEM -.->|numeric features / probs| GF["Gemini features<br/>(+ optional probability blend)"]
+    HT --> FUSE["Concatenation + shared MLP trunk<br/>ℝ¹⁰³¹ / ℝ¹⁰³⁸ / ℝ¹⁰³⁷"]
+    HE --> FUSE
+    HM --> FUSE
+    GF -.-> FUSE
+    FUSE --> H21["2.1 Binary head<br/>P(YES) = σ(·)"]
+    FUSE --> H22["2.2 Hierarchical head<br/>P(NO) = 1 − pₛ ; DIRECT / JUDG"]
+    FUSE --> H23["2.3 Conditional multi-label head<br/>P(cᵢ) = P(sexist) · P(cᵢ | sexist)"]
+    classDef gemini fill:#e8ddff,stroke:#7c4dff,color:#000
+    classDef head fill:#dff5e1,stroke:#2e9e50,color:#000
+    class GEM,GF gemini
+    class H21,H22,H23 head
+```
+
 ## 1. Learning with disagreement (soft targets)
 
 Each meme has six human annotations. Instead of collapsing them to a majority label, the models are
