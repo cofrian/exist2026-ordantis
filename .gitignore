@@ -1,0 +1,53 @@
+# ---- Secrets ----
+.env
+*.env
+!.env.example
+
+# ---- EXIST 2026 dataset (not redistributable; download from the organizers) ----
+/datos/
+datos/
+**/EXIST2026_*.json
+
+# ---- Generated pipeline artifacts (rebuilt by the code) ----
+src/exist2026_*/
+exist2026_*/
+*.zip
+
+# Model checkpoints & embeddings
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Precomputed caches (regenerate with the precompute_* scripts)
+*.npz
+preprocessed/
+gemini_predictions*.json
+ekman_emotions.json
+*paraphrases*.json*
+sensor_stats.json
+attention_weights/
+gpu_logs/
+*.pid
+*.DONE
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/

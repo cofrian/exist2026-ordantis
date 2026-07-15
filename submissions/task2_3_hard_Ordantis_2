@@ -1,0 +1,7691 @@
+[
+  {
+    "test_case": "EXIST2025",
+    "id": "310001",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310002",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310003",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310004",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310005",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310006",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310007",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310008",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310009",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310010",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310011",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310012",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310013",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310014",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310015",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310016",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310017",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310018",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310019",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310020",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310021",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310022",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310023",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310024",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310025",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310026",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310027",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310028",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310029",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310030",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310031",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310032",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310033",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310034",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310035",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310036",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310037",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310038",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310039",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310040",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310041",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310042",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310043",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310044",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310045",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310046",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310047",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310048",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310049",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310050",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310051",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310052",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310053",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310054",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310055",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310056",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310057",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310058",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310059",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310060",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310061",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310062",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310063",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310064",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310065",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310066",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310067",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310068",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310069",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310070",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310071",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310072",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310073",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310074",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310075",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310076",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310077",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310078",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310079",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310080",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310081",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310082",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310083",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310084",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310085",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310086",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310087",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310088",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310089",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310090",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310091",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310092",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310093",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310094",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310095",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310096",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310097",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310098",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310099",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310100",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310101",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310102",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310103",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310104",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310105",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310106",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310107",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310108",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310109",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310110",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310111",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310112",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310113",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310114",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310115",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310116",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310117",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310118",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310119",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310120",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310121",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310122",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310123",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310124",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310125",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310126",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310127",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310128",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310129",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310130",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310131",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310132",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310133",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310134",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310135",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310136",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310137",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310138",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310139",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310140",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310141",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310142",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310143",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310144",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310145",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310146",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310147",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310148",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310149",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310150",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310151",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310152",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310153",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310154",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310155",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310156",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310157",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310158",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310159",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310160",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310161",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310162",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310163",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310164",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310165",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310166",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310167",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310168",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310169",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310170",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310171",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310172",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310173",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310174",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310175",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310176",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310177",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310178",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310179",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310180",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310181",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310182",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310183",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310184",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310185",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310186",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310187",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310188",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310189",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310190",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310191",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310192",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310193",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310194",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310195",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310196",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310197",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310198",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310199",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310200",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310201",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310202",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310203",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310204",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310205",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310206",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310207",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310208",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310209",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310210",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310211",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310212",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310213",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310214",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310215",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310216",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310217",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310218",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310219",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310220",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310221",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310222",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310223",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310224",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310225",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310226",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310227",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310228",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310229",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310230",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310231",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310232",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310233",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310234",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310235",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310236",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310237",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310238",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310239",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310240",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310241",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310242",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310243",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310244",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310245",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310246",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310247",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310248",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310249",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310250",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310251",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310252",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310253",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310254",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310255",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310256",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310257",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310258",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310259",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310260",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310261",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310262",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310263",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310264",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310265",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310266",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310267",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310268",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310269",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310270",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310271",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310272",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310273",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310274",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310275",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310276",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310277",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310278",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310279",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310280",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310281",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310282",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310283",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310284",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310285",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310286",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310287",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310288",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310289",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310290",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310291",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310292",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310293",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310294",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310295",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310296",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310297",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310298",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310299",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310300",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310301",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310302",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310303",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310304",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310305",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310306",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310307",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310308",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310309",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310310",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310311",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310312",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310313",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310314",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310315",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310316",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310317",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310318",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310319",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310320",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310321",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310322",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310323",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310324",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310325",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310326",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310327",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310328",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310329",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310330",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310331",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310332",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310333",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310334",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310335",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310336",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310337",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310338",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310339",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310340",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310341",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310342",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310343",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310344",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310345",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310346",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310347",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310348",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310349",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310350",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310351",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310352",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310353",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310354",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310355",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310356",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310357",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310358",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310359",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310360",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310361",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310362",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310363",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310364",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310365",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310366",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310367",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310368",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310369",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310370",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310371",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310372",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310373",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310374",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310375",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310376",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310377",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310378",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310379",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310380",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310381",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310382",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310383",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310384",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310385",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310386",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310387",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310388",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310389",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310390",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310391",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310392",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310393",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310394",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310395",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310396",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310397",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310398",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310399",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310400",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310401",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310402",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310403",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310404",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310405",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310406",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310407",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310408",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310409",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310410",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310411",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310412",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310413",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310414",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310415",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310416",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310417",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310418",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310419",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310420",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310421",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310422",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310423",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310424",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310425",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310426",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310427",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310428",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310429",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310430",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310431",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310432",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310433",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310434",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310435",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310436",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310437",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310438",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310439",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310440",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310441",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310442",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310443",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310444",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310445",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310446",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310447",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310448",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310449",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310450",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310451",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310452",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310453",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310454",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310455",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310456",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310457",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310458",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310459",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310460",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310461",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310462",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310463",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310464",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310465",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310466",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310467",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310468",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310469",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310470",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310471",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310472",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310473",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310474",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310475",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310476",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310477",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310478",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310479",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310480",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310481",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310482",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310483",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310484",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310485",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310486",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310487",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310488",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310489",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310490",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310491",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310492",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310493",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310494",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310495",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310496",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310497",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310498",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310499",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310500",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310501",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310502",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310503",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310504",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310505",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310506",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310507",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310508",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310509",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310510",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310511",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310512",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310513",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310514",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310515",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310516",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310517",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310518",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310519",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310520",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310521",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310522",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310523",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310524",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310525",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310526",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310527",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310528",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310529",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310530",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310531",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310532",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310533",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310534",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310535",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310536",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310537",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310538",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310539",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "310540",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410001",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410002",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410003",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410004",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410005",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410006",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410007",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410008",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410009",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410010",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410011",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410012",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410013",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410014",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410015",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410016",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410017",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410018",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410019",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410020",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410021",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410022",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410023",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410024",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410025",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410026",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410027",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410028",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410029",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410030",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410031",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410032",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410033",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410034",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410035",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410036",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410037",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410038",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410039",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410040",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410041",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410042",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410043",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410044",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410045",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410046",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410047",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410048",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410049",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410050",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410051",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410052",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410053",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410054",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410055",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410056",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410057",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410058",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410059",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410060",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410061",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410062",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410063",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410064",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410065",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410066",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410067",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410068",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410069",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410070",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410071",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410072",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410073",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410074",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410075",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410076",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410077",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410078",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410079",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410080",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410081",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410082",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410083",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410084",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410085",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410086",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410087",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410088",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410089",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410090",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410091",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410092",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410093",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410094",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410095",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410096",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410097",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410098",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410099",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410100",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410101",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410102",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410103",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410104",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410105",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410106",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410107",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410108",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410109",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410110",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410111",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410112",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410113",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410114",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410115",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410116",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410117",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410118",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410119",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410120",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410121",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410122",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410123",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410124",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410125",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410126",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410127",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410128",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410129",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410130",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410131",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410132",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410133",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410134",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410135",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410136",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410137",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410138",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410139",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410140",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410141",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410142",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410143",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410144",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410145",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410146",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410147",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410148",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410149",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410150",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410151",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410152",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410153",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410154",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410155",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410156",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410157",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410158",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410159",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410160",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410161",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410162",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410163",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410164",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410165",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410166",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410167",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410168",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410169",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410170",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410171",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410172",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410173",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410174",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410175",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410176",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410177",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410178",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410179",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410180",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410181",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410182",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410183",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410184",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410185",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410186",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410187",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410188",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410189",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410190",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410191",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410192",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410193",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410194",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410195",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410196",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410197",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410198",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410199",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410200",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410201",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410202",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410203",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410204",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410205",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410206",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410207",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410208",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410209",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410210",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410211",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410212",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410213",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410214",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410215",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410216",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410217",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410218",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410219",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410220",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410221",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410222",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410223",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410224",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410225",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410226",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410227",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410228",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410229",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410230",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410231",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410232",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410233",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410234",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410235",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410236",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410237",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410238",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410239",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410240",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410241",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410242",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410243",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410244",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410245",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410246",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410247",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410248",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410249",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410250",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410251",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410252",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410253",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410254",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410255",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410256",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410257",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410258",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410259",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410260",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410261",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410262",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410263",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410264",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410265",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410266",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410267",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410268",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410269",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410270",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410271",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410272",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410273",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410274",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410275",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410276",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410277",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410278",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410279",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410280",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410281",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410282",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410283",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410284",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410285",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410286",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410287",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410288",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410289",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410290",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410291",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410292",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410293",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410294",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410295",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410296",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410297",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410298",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410299",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410300",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410301",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410302",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410303",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410304",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410305",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410306",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410307",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410308",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410309",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410310",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410311",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410312",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410313",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410314",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410315",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410316",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410317",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410318",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410319",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410320",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410321",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410322",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410323",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410324",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410325",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410326",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410327",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410328",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410329",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410330",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410331",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410332",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410333",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410334",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410335",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410336",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410337",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410338",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410339",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410340",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410341",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410342",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410343",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410344",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410345",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410346",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410347",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410348",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410349",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410350",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410351",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410352",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410353",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410354",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410355",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410356",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410357",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410358",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410359",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410360",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410361",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410362",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410363",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410364",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410365",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410366",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410367",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410368",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410369",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410370",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410371",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410372",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410373",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410374",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410375",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410376",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410377",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410378",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410379",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410380",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410381",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410382",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410383",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410384",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410385",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410386",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410387",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410388",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410389",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410390",
+    "value": [
+      "OBJECTIFICATION",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410391",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410392",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410393",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410394",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410395",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410396",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410397",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410398",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410399",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410400",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410401",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410402",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410403",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410404",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410405",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410406",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410407",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410408",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410409",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410410",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410411",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410412",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410413",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410414",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410415",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410416",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410417",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410418",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410419",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410420",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410421",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410422",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410423",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410424",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410425",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410426",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410427",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410428",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410429",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410430",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410431",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410432",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410433",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410434",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410435",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410436",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410437",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410438",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410439",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410440",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410441",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410442",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410443",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410444",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410445",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410446",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410447",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410448",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410449",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410450",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410451",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410452",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410453",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410454",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410455",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410456",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410457",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410458",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410459",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410460",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410461",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410462",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410463",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410464",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410465",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410466",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410467",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410468",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410469",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410470",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410471",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410472",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410473",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410474",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410475",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410476",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410477",
+    "value": [
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410478",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410479",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410480",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410481",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410482",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410483",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410484",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410485",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410486",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410487",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410488",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410489",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410490",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410491",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410492",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410493",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410494",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410495",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410496",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410497",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410498",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410499",
+    "value": [
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410500",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410501",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "STEREOTYPING-DOMINANCE",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410502",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410503",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410504",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410505",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410506",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410507",
+    "value": [
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410508",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410509",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410510",
+    "value": [
+      "IDEOLOGICAL-INEQUALITY",
+      "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410511",
+    "value": [
+      "STEREOTYPING-DOMINANCE",
+      "OBJECTIFICATION",
+      "SEXUAL-VIOLENCE"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410512",
+    "value": [
+      "OBJECTIFICATION"
+    ]
+  },
+  {
+    "test_case": "EXIST2025",
+    "id": "410513",
+    "value": [
+      "STEREOTYPING-DOMINANCE"
+    ]
+  }
+]

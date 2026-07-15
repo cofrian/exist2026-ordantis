@@ -1,0 +1,17 @@
+checkpoint,dir,params_total,params_backbone_texto,params_resto,M_params,file_MB
+M3_vista_E_best.pt,checkpoints,278659330,278043648,615682,278.659,558.6
+vista_e_task22_best.pt,checkpoints,278663172,278043648,619524,278.663,558.6
+vista_e_task23_best.pt,checkpoints,278428166,278043648,384518,278.428,557.7
+vista_e_task21_longformer_R_best.pt,_alt,281411842,280796160,615682,281.412,564.1
+vista_e_task21_longformer_best.pt,_alt,281411842,280796160,615682,281.412,564.1
+vista_e_task21_max512_R_best.pt,_alt,278659330,278043648,615682,278.659,558.6
+vista_e_task21_max512_best.pt,_alt,278659330,278043648,615682,278.659,558.6
+vista_e_task22_longformer_best.pt,_alt,281415684,280796160,619524,281.416,564.1
+vista_e_task22_max512_R_best.pt,_alt,278663172,278043648,619524,278.663,558.6
+vista_e_task22_max512_best.pt,_alt,278663172,278043648,619524,278.663,558.6
+vista_e_task23_longformer_R_best.pt,_alt,281547271,280796160,751111,281.547,564.7
+vista_e_task23_longformer_best.pt,_alt,281547271,280796160,751111,281.547,564.7
+vista_e_task23_longformer_v2_best.pt,_alt,281547271,280796160,751111,281.547,564.7
+vista_e_task23_max512_R_best.pt,_alt,278794759,278043648,751111,278.795,559.2
+vista_e_task23_max512_best.pt,_alt,278794759,278043648,751111,278.795,559.2
+vista_e_task23_max512_v2_best.pt,_alt,278794759,278043648,751111,278.795,559.2

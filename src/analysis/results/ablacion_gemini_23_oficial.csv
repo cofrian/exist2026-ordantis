@@ -1,0 +1,14 @@
+subtarea,checkpoint,condicion,F1_macro,ICM,decode
+2.3,XLM-R/512,con_features,0.7137,0.3363,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,XLM-R/512,sin_features(0),0.7133,0.3339,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,XLM-R/512 +bal,con_features,0.7146,0.3417,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,XLM-R/512 +bal,sin_features(0),0.7138,0.3353,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,XLM-R/512 +bal +reason,con_features,0.7135,0.3331,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,XLM-R/512 +bal +reason,sin_features(0),0.7126,0.3243,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Longformer,con_features,0.7051,0.2647,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Longformer,sin_features(0),0.7024,0.2399,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Longformer +bal,con_features,0.7029,0.2455,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Longformer +bal,sin_features(0),0.6978,0.2083,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Longformer +bal +reason,con_features,0.7116,0.3067,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Longformer +bal +reason,sin_features(0),0.7089,0.285,"tsex0.30/tcat0.15 gate real, gold oficial"
+2.3,Vista E base (320),N/A (no consume features numericas),NA,NA,NA

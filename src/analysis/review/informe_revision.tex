@@ -1,0 +1,447 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---- codificación y fuentes ----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage{lmodern}
+
+% ---- layout ----
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{microtype}
+\usepackage{parskip}
+
+% ---- tablas ----
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+% ---- gráficos y color ----
+\usepackage{graphicx}
+\graphicspath{{figuras/}}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage[colorlinks=true,linkcolor=Maroon,urlcolor=RoyalBlue,citecolor=RoyalBlue]{hyperref}
+
+% ---- columnas numéricas alineadas por punto decimal ----
+\newcolumntype{d}[1]{S[table-format=#1,detect-weight,mode=text]}
+
+% ---- macros ----
+\newcommand{\best}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newtcolorbox{finding}[1][]{colback=Teal!5,colframe=Teal!55,boxrule=0.6pt,
+  left=8pt,right=8pt,top=6pt,bottom=6pt,title={#1},fonttitle=\bfseries\small}
+\newtcolorbox{warnbox}[1][]{colback=BurntOrange!6,colframe=BurntOrange!55,boxrule=0.6pt,
+  left=8pt,right=8pt,top=6pt,bottom=6pt,title={#1},fonttitle=\bfseries\small}
+
+\title{\vspace{-1.2cm}\textbf{Informe de análisis para respuesta a revisores}\\[2pt]
+  \large EXIST 2026 --- Task 2 (clasificación de memes sexistas) --- Equipo \emph{Ordantis}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-1.4cm}
+
+\begin{finding}[Ámbito y garantías del informe]
+Todas las cifras se han obtenido \textbf{ejecutando código sobre datos reales}, en
+\textbf{validación} ($n=598$), reutilizando los \textbf{16 checkpoints} entregados y la caché de
+Gemini. \textbf{No se ha reentrenado ningún modelo} y \textbf{no hay ninguna cifra estimada}. Las
+métricas oficiales ICM / ICM-Soft se calculan con \textbf{PyEvALL 0.2.11}.
+\end{finding}
+
+\noindent\textbf{Entorno.} GPU NVIDIA RTX 4500 Ada; PyTorch 2.12.1 (CUDA 13.0); Transformers
+5.12.1; scikit-learn 1.9; PyEvALL 0.2.11. Partición estratificada 85/15 por idioma y etiqueta
+(\code{SEED=42}): \textbf{train $=3386$, validación $=598$, test $=1053$}.
+
+\tableofcontents
+\bigskip
+
+% ======================================================
+\section{Resumen ejecutivo}
+
+\begin{table}[h]\centering\small
+\caption{Mejor configuración por subtarea (validación).}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Subtarea & Mejor modelo (criterio) & Métrica ppal. & ICM & ICM-Soft \\
+\midrule
+2.1 sexista sí/no & Ensemble 0.6·VistaE + 0.4·Gemini & F1$^{+}=0.856$ & $+0.373$ & \best{$+0.596$} \\
+2.2 intención     & Vista E-2.2 Longformer          & F1-macro$=0.607$ & \best{$+0.113$} & $-0.676$ \\
+2.3 categorización& Vista E-2.3 max512\_v2           & F1-macro$=\best{0.715}$ & $+0.342$ & $-5.991$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{finding}[Cuatro conclusiones de una línea]
+\begin{enumerate}\itemsep1pt
+  \item \textbf{La subtarea 2.1 está resuelta y bien calibrada} (F1$^{+}\approx0.86$--$0.88$; el
+  ensemble con Gemini maximiza el ICM-Soft).
+  \item \textbf{La subtarea 2.2 es la difícil}: el ICM ronda 0 y la clase JUDGEMENTAL hunde el macro.
+  \item \textbf{Gemini aporta poco como \emph{features} numéricas (2.2) pero mucho como \emph{texto}
+  (2.3)}: retirar el texto de Gemini en 2.3 desploma F1-macro de $0.674$ a $0.515$.
+  \item \textbf{El peor F1 de 2.3 se debe a confusión de frontera, no a rareza}: MISOGYNY-NSV se
+  confunde con STEREOTYPING e IDEOLOGICAL, categorías semánticamente contiguas.
+\end{enumerate}
+\end{finding}
+
+% ======================================================
+\section{Rendimiento de todos los modelos (Tarea 1)}
+
+Se evaluaron 28 configuraciones en validación: los 16 checkpoints, Gemini crudo en cada subtarea,
+los ensembles/blends y las estrategias de decodificación de 2.2. El \emph{threshold} se optimiza
+sobre ICM (2.1) o sobre F1-macro con rejilla 2-D (2.2, 2.3).
+
+\subsection{Subtarea 2.1 --- sexista sí / no (binaria)}
+\begin{table}[h]\centering\small
+\caption{2.1: F1 de la clase positiva, AUC-ROC, ICM, ICM-Soft y \emph{threshold} óptimo.}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Modelo & F1$^{+}$ & AUC & ICM & ICM-Soft & thr \\
+\midrule
+Vista E (M3\_vista\_E, \emph{zip}) & 0.8609 & 0.8839 & $+0.3855$ & $+0.4798$ & 0.55 \\
+Gemini 3-flash crudo               & 0.8748 & 0.8550 & $+0.3429$ & $+0.2335$ & 0.30 \\
+\best{Ensemble 0.6·E + 0.4·Gemini} & 0.8560 & 0.8886 & $+0.3733$ & \best{$+0.5957$} & 0.67 \\
+Vista E-2.1 max512                 & 0.8715 & 0.8852 & $+0.3944$ & $+0.3025$ & 0.60 \\
+Vista E-2.1 max512\_R              & 0.8633 & 0.8925 & \best{$+0.4088$} & $+0.3878$ & 0.61 \\
+Vista E-2.1 Longformer             & 0.8676 & 0.8833 & $+0.4008$ & $+0.5428$ & 0.57 \\
+\best{Vista E-2.1 Longformer\_R}   & \best{0.8790} & 0.8843 & $+0.3801$ & $+0.5334$ & 0.50 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\emph{Lectura.} Rendimiento homogéneo (AUC $\approx0.88$--$0.89$). Ninguna variante de
+mayor contexto ni el \emph{reasoning} (sufijo \code{_R}) mejora de forma decisiva sobre el modelo
+del \emph{zip}. El ensemble con Gemini es el de mejor calidad probabilística (ICM-Soft $=+0.596$);
+Gemini crudo, pese a un F1$^{+}$ algo mayor, es el peor en soft por estar peor calibrado.
+
+\subsection{Subtarea 2.2 --- intención: NO / DIRECT / JUDGEMENTAL}
+\begin{table}[h]\centering\small
+\caption{2.2: checkpoint principal (\code{vista_e_task22_best}) bajo diez decodificaciones.}
+\setlength\tabcolsep{4pt}
+\begin{tabular}{@{}lrrrrrl@{}}
+\toprule
+Estrategia & F1-macro & ICM & ICM-N & ICM-Soft & ICM-SN & F1 [NO/DIR/JUD] \\
+\midrule
+HARD · VistaE + thr ponderado          & 0.5597 & $+0.0349$ & 0.513 & --- & --- & 0.78/0.65/0.25 \\
+HARD · VistaE argmax                   & 0.5591 & $-0.1302$ & 0.452 & --- & --- & 0.76/0.56/0.36 \\
+\best{HARD · blend 0.6E+0.4G + thr}    & \best{0.5868} & $+0.0349$ & 0.513 & --- & --- & 0.73/0.69/0.34 \\
+HARD · blend 0.6E+0.4G argmax          & 0.5594 & $-0.0447$ & 0.484 & --- & --- & 0.67/0.67/0.33 \\
+HARD · Gemini crudo argmax             & 0.5497 & $-0.0786$ & 0.471 & --- & --- & 0.65/0.67/0.33 \\
+SOFT · VistaE + Platt por clase        & 0.5059 & --- & --- & $-0.4388$ & 0.454 & CE$=1.492$ \\
+SOFT · VistaE raw                      & 0.5591 & --- & --- & $-0.6787$ & 0.429 & CE$=1.380$ \\
+SOFT · blend + Platt por clase         & 0.5816 & --- & --- & $-0.2646$ & 0.472 & CE$=1.485$ \\
+\best{SOFT · blend 0.6E+0.4G raw}      & 0.5594 & --- & --- & \best{$-0.1571$} & 0.484 & CE$=1.399$ \\
+SOFT · Gemini crudo                    & 0.5497 & --- & --- & $-2.5618$ & 0.232 & CE$=2.045$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{2.2: variantes \emph{alt} con \emph{threshold} 2-D óptimo.}
+\setlength\tabcolsep{4pt}
+\begin{tabular}{@{}lrrrrrl@{}}
+\toprule
+Modelo & F1m (thr) & F1m (argmax) & ICM & ICM-N & ICM-Soft & F1 [NO/DIR/JUD] \\
+\midrule
+Vista E-2.2 max512    & 0.5456 & 0.5752 & $-0.0645$ & 0.476 & $-0.6858$ & 0.77/0.58/0.38 \\
+Vista E-2.2 max512\_R & 0.5669 & 0.5697 & $-0.0002$ & 0.500 & $-0.8021$ & 0.76/0.56/0.38 \\
+\best{Vista E-2.2 Longformer} & \best{0.6073} & 0.5795 & \best{$+0.1129$} & 0.541 & $-0.6758$ & 0.75/0.63/0.36 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\emph{Lectura.} Subtarea más difícil: el ICM se sitúa alrededor de 0. El \emph{threshold}
+ponderado mejora sistemáticamente al \code{argmax}; el \emph{blend} con Gemini mejora la calidad
+soft. La clase \textbf{JUDGEMENTAL} es el cuello de botella persistente (F1 $\in[0.22,0.38]$) pese
+al sobre-muestreo y a la \emph{focal loss}. El único modelo con ICM claramente positivo es la
+variante Longformer ($+0.113$).
+
+\subsection{Subtarea 2.3 --- categorización (5 categorías, multietiqueta)}
+\begin{table}[h]\centering\small
+\caption{2.3: 7 checkpoints + Gemini.}
+\setlength\tabcolsep{5pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Modelo & F1-micro & F1-macro & ICM & ICM-N & ICM-Soft & ICM-SN \\
+\midrule
+Vista E-2.3 ORIGINAL (\emph{zip}) & 0.5496 & 0.6741 & $+0.2623$ & 0.556 & $-2.7553$ & 0.355 \\
+Vista E-2.3 max512                & 0.6238 & 0.7137 & $+0.3363$ & 0.570 & $-4.5932$ & 0.210 \\
+\best{Vista E-2.3 max512\_v2}     & 0.6251 & \best{0.7146} & \best{$+0.3417$} & 0.571 & $-5.9912$ & 0.121 \\
+Vista E-2.3 max512\_R             & 0.6149 & 0.7135 & $+0.3331$ & 0.569 & $-6.1419$ & 0.112 \\
+Vista E-2.3 Longformer            & 0.5856 & 0.7051 & $+0.2647$ & 0.555 & $-3.4947$ & 0.279 \\
+Vista E-2.3 Longformer\_v2        & 0.6188 & 0.7029 & $+0.2455$ & 0.551 & $-5.1343$ & 0.175 \\
+Vista E-2.3 Longformer\_R         & 0.6144 & 0.7116 & $+0.3067$ & 0.564 & $-5.4749$ & 0.154 \\
+Gemini 3-flash crudo (2.3)        & 0.5938 & 0.5367 & $-3.4148$ & 0.000 & $-17.1151$ & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\emph{Lectura.} En F1-macro, las variantes \code{max512}/\code{_v2}/\code{_R} ($\approx0.71$)
+superan al modelo del \emph{zip} ($0.674$). Todos los modelos entrenados baten con holgura a
+Gemini crudo (ICM $+0.34$ vs $-3.41$). El ICM-Soft es negativo en todos los casos porque la
+métrica soft penaliza con dureza la sobre-confianza en categorías raras.
+
+\begin{warnbox}[Nota metodológica sobre el modelo 2.3 del \emph{zip}]
+El checkpoint principal de 2.3 (\code{vista_e_task23_best}) usa una arquitectura distinta: emite
+solo 5 sigmoides de categoría, sin cabeza de ``sexista''. Se evaluó con un evaluador dedicado
+(\code{eval_main23.py}) usando una compuerta de sexista $=$ máxima probabilidad de categoría; por
+ello su ICM-Soft no es 1:1 comparable con las variantes de 6 salidas.
+\end{warnbox}
+
+% ======================================================
+\section{Calibración (Tarea 2)}
+
+Se calculan ECE (10 \emph{bins}), MCE y \emph{Brier score}. El gold \emph{hard} es el voto
+mayoritario (umbral 0.5); la fiabilidad \emph{soft} compara la probabilidad predicha con la
+proporción real de anotadores. Curvas: \code{reliability_2_1.png}, \code{reliability_2_2_perclass.png},
+\code{reliability_2_3_percat.png}.
+
+\begin{table}[h]\centering\small
+\caption{Resumen antes $\rightarrow$ después (ECE-hard; menor es mejor).}
+\begin{tabular}{@{}lrrl@{}}
+\toprule
+Subtarea · método & ECE (raw) & ECE (calibrado) & $\Delta$ \\
+\midrule
+2.1 Vista E · temperature ($T=1.149$)      & 0.1084 & 0.1330 & empeora hard$^{*}$ \\
+2.1 Vista E $\rightarrow$ Ensemble · blend 0.6/0.4 & 0.1084 & \best{0.0748} & $-0.034$ \\
+2.2 VistaE22 (macro OvR) · Platt por clase & 0.1314 & \best{0.0361} & $-0.095$ \\
+2.3 VistaE23 (macro OvR) · Platt por clase & 0.0944 & \best{0.0347} & $-0.060$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent{\footnotesize $^{*}$El \emph{temperature} empeora el ECE-hard (modelo ya casi calibrado,
+$T\approx1.15$) pero mejora el soft-ECE ($0.0294\rightarrow0.0190$).}
+
+\begin{table}[h]\centering\small
+\caption{2.1: calibración global (binario).}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Modelo · método & ECE-h & MCE-h & Brier-h & ECE-s & Brier-s \\
+\midrule
+Vista E · raw           & 0.1084 & 0.2316 & 0.1397 & 0.0294 & 0.0481 \\
+Vista E · temperature   & 0.1330 & 0.2530 & 0.1451 & 0.0190 & 0.0477 \\
+Gemini crudo · raw      & 0.0814 & 0.5500 & 0.1438 & 0.1996 & 0.0915 \\
+\best{Ensemble 0.6E+0.4G · blend} & 0.0748 & 0.2869 & 0.1287 & 0.0858 & 0.0528 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{2.2: ECE por clase (one-vs-rest), raw vs Platt.}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Clase & ECE raw & ECE Platt & MCE raw & MCE Platt & Brier raw & Brier Platt \\
+\midrule
+NO          & 0.0968 & 0.0396 & 0.2371 & 0.1163 & 0.1736 & 0.1604 \\
+DIRECT      & 0.1190 & 0.0524 & 0.3620 & 0.1105 & 0.1851 & 0.1628 \\
+JUDGEMENTAL & 0.1782 & 0.0164 & 0.3845 & 0.4361 & 0.1238 & 0.0892 \\
+\best{MACRO OvR} & \best{0.1314} & \best{0.0361} & --- & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]\centering\small
+\caption{2.3: ECE por categoría (one-vs-rest), raw vs Platt.}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Categoría & ECE raw & ECE Platt & MCE raw & MCE Platt & Brier raw & Brier Platt \\
+\midrule
+IDEOLOGICAL-INEQUALITY       & 0.0828 & 0.0430 & 0.2039 & 0.1829 & 0.1260 & 0.1206 \\
+STEREOTYPING-DOMINANCE       & 0.0669 & 0.0337 & 0.1885 & 0.1238 & 0.1694 & 0.1631 \\
+OBJECTIFICATION              & 0.1004 & 0.0440 & 0.2062 & 0.2299 & 0.1364 & 0.1255 \\
+SEXUAL-VIOLENCE              & 0.1184 & 0.0279 & 0.1874 & 0.2574 & 0.0785 & 0.0666 \\
+MISOGYNY-NON-SEXUAL-VIOLENCE & 0.1032 & 0.0247 & 0.4459 & 0.4548 & 0.0925 & 0.0826 \\
+\best{MACRO OvR} & \best{0.0944} & \best{0.0347} & --- & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\emph{Lectura.} \textbf{Platt por clase reduce el ECE-hard $\sim70\%$} en 2.2 y 2.3; la
+peor categoría cruda es JUDGEMENTAL ($0.178\rightarrow0.016$). El coste: a veces sube el soft-ECE
+(Platt se ajusta a etiquetas duras). En 2.1 el modelo ya está casi calibrado y es el \emph{blend}
+con Gemini lo que reduce el ECE-hard. \textbf{Recomendación}: reportar ECE por clase y aplicar
+Platt como post-proceso en 2.2/2.3.
+
+% ======================================================
+\section{Análisis de errores de la categorización 2.3 (Tarea 3)}
+
+Modelo principal, validación, umbrales óptimos \code{thr_sex}$=0.34$, \code{thr_cat}$=0.20$.
+
+\begin{table}[h]\centering\small
+\caption{Rendimiento por categoría (orden por frecuencia gold).}
+\setlength\tabcolsep{4.5pt}
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+Categoría & f.gold & f.pred & F1 & Prec. & Rec. & TP & FP & FN & TN \\
+\midrule
+SEXUAL-VIOLENCE              & 153 & 196 & 0.6762 & 0.6020 & 0.7712 & 118 & 78 & 35 & 367 \\
+\best{MISOGYNY-NON-SV}       & 186 & 246 & \best{0.5556} & 0.4878 & 0.6452 & 120 & 126 & 66 & 286 \\
+IDEOLOGICAL-INEQUALITY       & 239 & 296 & 0.6879 & 0.6216 & 0.7699 & 184 & 112 & 55 & 247 \\
+OBJECTIFICATION              & 262 & 266 & 0.7121 & 0.7068 & 0.7176 & 188 & 78 & 74 & 258 \\
+STEREOTYPING-DOMINANCE       & 301 & 314 & 0.7122 & 0.6975 & 0.7276 & 219 & 95 & 82 & 202 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent Correlación Pearson frecuencia\_gold $\leftrightarrow$ F1 ($n=5$) $=+0.587$: la rareza
+explica \emph{parte} del F1, pero no todo.
+
+\begin{table}[h]\centering\small
+\begin{minipage}[t]{0.48\textwidth}\centering
+\caption{Co-ocurrencia en gold (nº de memes).}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & IDE & STE & OBJ & SXV & MIS \\
+\midrule
+IDE & 239 & 202 & 137 & 58 & 113 \\
+STE & 202 & 301 & 193 & 98 & 144 \\
+OBJ & 137 & 193 & 262 & 131 & 124 \\
+SXV & 58 & 98 & 131 & 153 & 77 \\
+MIS & 113 & 144 & 124 & 77 & 186 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}\centering
+\caption{$P(\text{pred cat}\mid\text{gold cat})$.}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+gold$\downarrow$ & IDE & STE & OBJ & SXV & MIS \\
+\midrule
+IDE & 0.77 & 0.73 & 0.44 & 0.29 & 0.59 \\
+STE & 0.68 & 0.73 & 0.56 & 0.40 & 0.58 \\
+OBJ & 0.55 & 0.65 & 0.72 & 0.58 & 0.50 \\
+SXV & 0.37 & 0.51 & 0.75 & 0.77 & 0.43 \\
+MIS & 0.66 & 0.71 & 0.62 & 0.45 & 0.65 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{table}
+
+\begin{finding}[Diagnóstico]
+MISOGYNY-NSV es el \emph{outlier}: peor F1 sin ser la más rara $\Rightarrow$ \textbf{confusión de
+frontera}. Cuando el gold es MISOGYNY-NSV el modelo predice también STEREOTYPING (0.71) e
+IDEOLOGICAL (0.66). Otras confusiones fuertes: SEXUAL-VIOLENCE $\leftrightarrow$ OBJECTIFICATION
+(0.75) e IDEOLOGICAL $\leftrightarrow$ STEREOTYPING (0.73), coherentes con la alta co-ocurrencia
+real (IDEOLOGICAL y STEREOTYPING juntas en 202 memes). Figura: \code{confusion_2_3.png}.
+\end{finding}
+
+% ======================================================
+\section{Ablación del aporte de Gemini (Tarea 4)}
+
+Mismo checkpoint, sin reentrenar. En 2.2 se ponen a cero las 7 \emph{features} numéricas de Gemini
+en el \emph{forward}. El modelo 2.3 no consume \emph{features} numéricas de Gemini (solo texto
+$768$ + EEG $256$ + Ekman $7$); la ablación equivalente retira el texto de Gemini dejando solo el OCR.
+
+\begin{table}[h]\centering\small
+\caption{Ablación del aporte de Gemini (validación).}
+\setlength\tabcolsep{5pt}
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+Condición & F1-macro & ICM & ICM-N & ICM-Soft & F1 [NO/DIR/JUD] \\
+\midrule
+2.2 normal (con 7 gfeat)                    & 0.5585 & $+0.0086$ & 0.503 & $-0.6787$ & 0.78/0.64/0.26 \\
+2.2 ablación (gfeat $=0$)                   & 0.5398 & $-0.0243$ & 0.491 & $-0.7963$ & 0.78/0.62/0.22 \\
+2.3 normal (texto con Gemini)               & 0.6741 & $+0.2623$ & 0.556 & $-2.7553$ & --- \\
+\best{2.3 ablación (solo OCR, sin Gemini)}  & \best{0.5151} & \best{$-1.2259$} & 0.239 & $-6.1976$ & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\emph{Lectura.} En 2.2, las 7 \emph{features} (\code{sexist_prob, confidence, P_NO,
+P_DIRECT, P_JUDG, irony_flag, irony_conf}) aportan poco pero positivo: al quitarlas, F1-macro baja
+$-0.019$ e ICM $-0.033$ (efecto concentrado en JUDGEMENTAL, $0.26\rightarrow0.22$). En 2.3, el
+texto de Gemini es el \textbf{motor} del modelo: al dejar solo el OCR, F1-macro cae
+$0.674\rightarrow0.515$ e ICM $+0.262\rightarrow-1.226$. Esto justifica cuantitativamente el uso
+de Gemini como enriquecimiento textual.
+
+\begin{warnbox}[Aclaración para revisores]
+El modelo 2.3 no admite ``poner 6 \emph{features} a cero'' porque esas entradas numéricas no
+existen; las 11 \emph{disagreement features} son \emph{salida} de una tarea auxiliar, no entrada.
+\end{warnbox}
+
+% ======================================================
+\section{Tamaño de los modelos (Tarea 5)}
+
+Parámetros totales por checkpoint (backbone incluido), desde el \code{state_dict} guardado; se
+excluyen buffers no-parámetro para igualar \code{sum(p.numel() for p in model.parameters())}.
+
+\begin{longtable}{@{}llrrrr@{}}
+\caption{16 checkpoints: parámetros (millones) y desglose.}\\
+\toprule
+Checkpoint & dir & Total (M) & Backbone (M) & Cabezas+ (M) & MB \\
+\midrule
+\endfirsthead
+\toprule
+Checkpoint & dir & Total (M) & Backbone (M) & Cabezas+ (M) & MB \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+M3\_vista\_E\_best (2.1 zip)   & checkpoints & 278.659 & 278.044 & 0.616 & 558.6 \\
+vista\_e\_task22\_best (2.2 zip) & checkpoints & 278.663 & 278.044 & 0.620 & 558.6 \\
+vista\_e\_task23\_best (2.3 zip) & checkpoints & 278.428 & 278.044 & 0.385 & 557.7 \\
+vista\_e\_task21\_max512        & \_alt & 278.659 & 278.044 & 0.616 & 558.6 \\
+vista\_e\_task21\_max512\_R    & \_alt & 278.659 & 278.044 & 0.616 & 558.6 \\
+vista\_e\_task21\_longformer    & \_alt & 281.412 & 280.796 & 0.616 & 564.1 \\
+vista\_e\_task21\_longformer\_R& \_alt & 281.412 & 280.796 & 0.616 & 564.1 \\
+vista\_e\_task22\_max512        & \_alt & 278.663 & 278.044 & 0.620 & 558.6 \\
+vista\_e\_task22\_max512\_R    & \_alt & 278.663 & 278.044 & 0.620 & 558.6 \\
+vista\_e\_task22\_longformer    & \_alt & 281.416 & 280.796 & 0.620 & 564.1 \\
+vista\_e\_task23\_max512        & \_alt & 278.795 & 278.044 & 0.751 & 559.2 \\
+vista\_e\_task23\_max512\_v2   & \_alt & 278.795 & 278.044 & 0.751 & 559.2 \\
+vista\_e\_task23\_max512\_R    & \_alt & 278.795 & 278.044 & 0.751 & 559.2 \\
+vista\_e\_task23\_longformer    & \_alt & 281.547 & 280.796 & 0.751 & 564.7 \\
+vista\_e\_task23\_longformer\_v2& \_alt & 281.547 & 280.796 & 0.751 & 564.7 \\
+vista\_e\_task23\_longformer\_R& \_alt & 281.547 & 280.796 & 0.751 & 564.7 \\
+\end{longtable}
+
+\noindent\emph{Lectura.} Familias XLM-R base $\approx278.4$--$278.8$~M; familias Longformer
+$\approx281.4$--$281.5$~M. El coste lo domina el backbone; las cabezas añaden $<0.8$~M. Rango
+total: $278\,428\,166$--$281\,547\,271$ parámetros.
+
+% ======================================================
+\section{Conclusiones}
+\textbf{Rendimiento.} (i) 2.1 está resuelto: F1$^{+}$ homogéneo $0.86$--$0.88$; el ensemble con
+Gemini maximiza el ICM-Soft; sin ganancia decisiva por mayor contexto ni \emph{reasoning}. (ii)
+2.2 es la subtarea más difícil (ICM $\approx0$); el \emph{threshold} ponderado bate al
+\code{argmax}, el \emph{blend} con Gemini ayuda en soft, y solo la variante Longformer logra ICM
+claramente positivo; JUDGEMENTAL sigue siendo el cuello de botella. (iii) 2.3 alcanza F1-macro
+$0.70$--$0.71$, muy por encima de Gemini crudo.
+
+\textbf{Calibración, errores y Gemini.} Los modelos están razonablemente calibrados en crudo (ECE
+$0.09$--$0.13$); Platt por clase mejora el ECE $\sim70\%$ en 2.2/2.3. El error dominante en 2.3 es
+la \textbf{confusión de frontera} entre categorías próximas, no la escasez de datos (corr.
+freq-F1 $=+0.59$). Gemini aporta poco como \emph{features} numéricas pero es determinante como
+\emph{texto} en 2.3. Tamaño: $\sim278$--$281$~M parámetros, dominado por el backbone.
+
+% ======================================================
+\section{Limitaciones (declaradas explícitamente)}
+\begin{enumerate}\itemsep1pt
+  \item \textbf{Todo es sobre VALIDACIÓN ($n=598$), nunca sobre TEST.} El test de EXIST no tiene
+  gold público; cualquier métrica sobre test sería imposible sin inventar. Se generan las
+  predicciones de test (\emph{submissions}/\emph{zip}) pero no se evalúan.
+  \item \textbf{Calibración \emph{in-sample}}: Platt y \emph{temperature} se ajustan sobre la
+  misma validación donde se mide el ECE. Las mejoras son cotas superiores optimistas.
+  \item \textbf{Gold hard}: voto mayoritario a 0.5; en 2.3 una categoría se considera presente si
+  la marca más de $1/6$ de los anotadores (coherente con el código original).
+  \item \textbf{El modelo 2.3 principal no tiene cabeza de ``sexista''}: su ICM se calculó con
+  compuerta $=$ máxima probabilidad de categoría; su ICM-Soft no es 1:1 comparable con las
+  variantes de 6 salidas.
+  \item \textbf{La ablación de 2.3 es de TEXTO} (no de \emph{features} numéricas, inexistentes en
+  ese modelo).
+  \item Se corrigieron dos incidencias del \emph{harness} (\code{load_t23} vs \code{load_task23} y
+  tokenizers Longformer que requerían \code{sentencepiece}+\code{protobuf}) sin reentrenar ni
+  editar los scripts originales.
+\end{enumerate}
+
+\vspace{4pt}
+\begin{center}\footnotesize
+EXIST 2026 · Task 2 · Equipo Ordantis · Análisis de revisión sobre validación ($n=598$) · Sin
+reentrenamiento · Ninguna cifra estimada.
+\end{center}
+
+\end{document}

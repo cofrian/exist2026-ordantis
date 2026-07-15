@@ -1,0 +1,19 @@
+subtarea,run,modelo_confirmado,receta,coincidencia_test,F1,ICM,ICMSoft,estado
+2.1,hard_1,vista_e_task21_max512_R,thr=0.46,99.7%,0.8632,+0.4088,+0.3878,CONFIRMADO
+2.1,hard_2,vista_e_task21_longformer,thr=0.39,99.9%,0.8676,+0.4008,+0.5428,CONFIRMADO
+2.1,hard_3,vista_e_task21_max512,thr=0.51,100.0%,0.8715,+0.3944,+0.3025,CONFIRMADO
+2.1,soft_1,M3_vista_E_best + blend 0.6/0.4 Gemini,pesos 0.6/0.4 sobre P(YES); bug 0.0->0.5 corregido,100.0%,0.8560,+0.3733,+0.5957,CONFIRMADO
+2.1,soft_2,vista_e_task21_longformer (directo),,max|Δ|=0.006,0.8676,+0.4008,+0.5428,CONFIRMADO
+2.1,soft_3,vista_e_task21_longformer_R (directo),,max|Δ|=0.006,0.8790,+0.3801,+0.5334,CONFIRMADO
+2.2,hard_1,vista_e_task22_longformer,thr=(0.425;0.35),96.4%,0.6051,+0.0984,,CONFIRMADO
+2.2,hard_2,vista_e_task22_max512,thr=(0.475;0.300),93.7%,0.5496,+0.0790,,CONFIRMADO
+2.2,hard_3,vista_e_task22_best + blend 0.6/0.4 Gemini,thr=(0.475;0.500),98.6%,0.5836,+0.0228,,CONFIRMADO
+2.2,soft_1,vista_e_task22_best + blend 0.6/0.4 Gemini (raw),,96.7%,,,-0.1572,CONFIRMADO
+2.2,soft_2,vista_e_task22_longformer + Platt por clase,,88.4%,,,-0.3294,CONFIRMADO
+2.2,soft_3,vista_e_task22_max512 + Platt por clase,,79.2%,,,-0.4386,CONFIRMADO (parcial)
+2.3,hard_1,vista_e_task23_max512_v2,thr=0.15 (sin gate sexista; argmax si vacío),99.5%,0.7146,+0.3417,,CONFIRMADO
+2.3,hard_2,vista_e_task23_max512,thr=0.15 (sin gate sexista; argmax si vacío),99.4%,0.7137,+0.3363,,CONFIRMADO
+2.3,hard_3,vista_e_task23_max512_R,thr=0.15 (sin gate sexista; argmax si vacío),99.9%,0.7135,+0.3331,,CONFIRMADO
+2.3,soft_1,vista_e_task23_longformer,,83.1%,0.7051,+0.2647,-3.4947,CONFIRMADO
+2.3,soft_2,vista_e_task23_max512,,77.8%,0.7137,+0.3363,-4.5932,CONFIRMADO
+2.3,soft_3,vista_e_task23_longformer_v2,,77.7%,0.7029,+0.2455,-5.1343,CONFIRMADO

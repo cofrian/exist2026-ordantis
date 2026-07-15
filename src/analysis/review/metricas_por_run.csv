@@ -1,0 +1,19 @@
+subtarea,run,config,checkpoint,F1,ICM,ICMSoft,nota
+2.1,hard_1,XLM-R 512 + reasoning,vista_e_task21_max512_R,0.8632707774798928,0.4087644000076273,0.3878021669013653,
+2.1,hard_2,Longformer 1100 (sin reasoning),vista_e_task21_longformer,0.8676277850589778,0.4008120767577049,0.5428041872045641,
+2.1,hard_3,XLM-R 512 (sin reasoning),vista_e_task21_max512,0.87146529562982,0.3944298294321188,0.3024958284506362,
+2.1,soft_1,0.6·P(max512_R) + 0.4·P(Gemini sexist_prob),vista_e_task21_max512_R + Gemini,0.8605,+0.3762,+0.4720,GEMF = max512_R (confirmado)
+2.1,soft_2,"Longformer 1100 (sin reasoning), prob directa",vista_e_task21_longformer,0.8676277850589778,0.4008120767577049,0.5428041872045641,
+2.1,soft_3,"Longformer 1100 + reasoning, prob directa",vista_e_task21_longformer_R,0.8790123456790123,0.3800952588566103,0.5334069624999747,
+2.2,hard_1,"Longformer 1100, thresholds jerárquicos",vista_e_task22_longformer,0.6073191903464901,0.11288820061824804,-0.6758228313133517,
+2.2,hard_2,"XLM-R 512, thresholds jerárquicos",vista_e_task22_max512,0.5455670514402152,-0.06450725444929287,-0.6858083029378261,
+2.2,hard_3,"blend 0.6/0.4 solo DIRECT/JUDG, P(NO)=1-(D+J), argmax",vista_e_task22_longformer + Gemini,0.558,-0.0427,,blend confirmado
+2.2,soft_1,blend 0.6/0.4 por clase (renormalizado),vista_e_task22_longformer + Gemini,0.558,,-0.2224,blend confirmado
+2.2,soft_2,Longformer 1100 + Platt por clase,vista_e_task22_longformer,,,-0.3294,ICMSoft con Platt (nuevo cálculo)
+2.2,soft_3,XLM-R 512 + Platt por clase,vista_e_task22_max512,,,-0.4386,ICMSoft con Platt (nuevo cálculo)
+2.3,hard_1,XLM-R 512 + sampler,vista_e_task23_max512_v2,0.7146,+0.3417,-5.9912,F1micro=0.6251
+2.3,hard_2,XLM-R 512 sin sampler,vista_e_task23_max512,0.7137,+0.3363,-4.5932,F1micro=0.6238
+2.3,hard_3,XLM-R 512 + sampler + reasoning,vista_e_task23_max512_R,0.7135,+0.3331,-6.1419,F1micro=0.6149
+2.3,soft_1,Longformer 1100 sin sampler,vista_e_task23_longformer,0.7051,+0.2647,-3.4947,F1micro=0.5856
+2.3,soft_2,XLM-R 512 sin sampler,vista_e_task23_max512,0.7137,+0.3363,-4.5932,F1micro=0.6238
+2.3,soft_3,Longformer 1100 + sampler,vista_e_task23_longformer_v2,0.7029,+0.2455,-5.1343,F1micro=0.6188

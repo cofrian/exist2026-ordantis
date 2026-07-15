@@ -1,0 +1,22 @@
+subtarea,checkpoint,condicion,F1_macro,F1_por_clase,ICM,ICM_Soft,ICM_SoftNorm
+2.2,vista_e_task22_best,con_features,0.5585,0.782/0.635/0.258,0.0086,-0.6788,0.4291
+2.2,vista_e_task22_best,sin_features(0),0.5398,0.780/0.623/0.217,-0.0243,-0.7963,0.4168
+2.2,vista_e_task22_max512,con_features,0.5456,0.768/0.600/0.268,-0.0645,-0.6858,0.4283
+2.2,vista_e_task22_max512,sin_features(0),0.5293,0.756/0.590/0.242,-0.0951,-0.8012,0.4163
+2.2,vista_e_task22_max512_R,con_features,0.5669,0.775/0.585/0.340,-0.0002,-0.8021,0.4162
+2.2,vista_e_task22_max512_R,sin_features(0),0.5355,0.770/0.501/0.335,-0.1172,-0.93,0.4028
+2.2,vista_e_task22_longformer,con_features,0.6073,0.770/0.674/0.378,0.1129,-0.6758,0.4294
+2.2,vista_e_task22_longformer,sin_features(0),0.5831,0.775/0.654/0.321,0.0702,-0.8688,0.4092
+2.3,XLM-R/512,con_features,0.7137,,0.3363,,
+2.3,XLM-R/512,sin_features(0),0.7133,,0.3339,,
+2.3,XLM-R/512 +bal,con_features,0.7146,,0.3417,,
+2.3,XLM-R/512 +bal,sin_features(0),0.7138,,0.3353,,
+2.3,XLM-R/512 +bal +reason,con_features,0.7135,,0.3331,,
+2.3,XLM-R/512 +bal +reason,sin_features(0),0.7126,,0.3243,,
+2.3,Longformer,con_features,0.7051,,0.2647,,
+2.3,Longformer,sin_features(0),0.7024,,0.2399,,
+2.3,Longformer +bal,con_features,0.7029,,0.2455,,
+2.3,Longformer +bal,sin_features(0),0.6978,,0.2083,,
+2.3,Longformer +bal +reason,con_features,0.7116,,0.3067,,
+2.3,Longformer +bal +reason,sin_features(0),0.7089,,0.285,,
+2.3,Vista E base (320),N/A (no consume features numericas),NA,NA,NA,NA,NA

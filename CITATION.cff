@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "GEMF: Gemini-Enriched Probabilistic Modeling for Multimodal Sexism Characterization in Memes (Ordantis @ EXIST 2026)"
+authors:
+  - family-names: "Ortiz Montesinos"
+    given-names: "Sergio"
+    affiliation: "Universitat Politècnica de València / Ordantis"
+  - family-names: "Martínez Gómez"
+    given-names: "Fernando"
+    affiliation: "Universitat Politècnica de València / Ordantis"
+repository-code: "https://github.com/cofrian/exist2026-ordantis"
+license: MIT
+keywords:
+  - sexism detection
+  - memes
+  - multimodal learning
+  - learning with disagreement
+  - large language models
+  - EXIST 2026
+preferred-citation:
+  type: conference-paper
+  title: "Gemini-Enriched Probabilistic Modeling for Multimodal Sexism Characterization in Memes"
+  authors:
+    - family-names: "Ortiz Montesinos"
+      given-names: "Sergio"
+    - family-names: "Martínez Gómez"
+      given-names: "Fernando"
+  collection-title: "Working Notes of CLEF 2026 — Conference and Labs of the Evaluation Forum"
+  year: 2026
+  conference:
+    name: "CLEF 2026, EXIST Lab (Task 2)"
+    city: "Jena"
+    country: "DE"

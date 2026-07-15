@@ -1,0 +1,536 @@
+<style>
+  :root{
+    --ink:#171b24; --ink-soft:#3a4150; --muted:#6b7280;
+    --paper:#f5f4f0; --surface:#ffffff; --line:#e2e0d8; --line-strong:#cbc9be;
+    --accent:#116b63; --accent-soft:#e4efed; --accent-ink:#0c4f49;
+    --pos:#1b7f5c; --pos-bg:#e7f4ee; --warn:#a86a12; --warn-bg:#fbf1de; --crit:#b0413a; --crit-bg:#f8e8e6;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Charter,Georgia,serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,"SF Mono","Cascadia Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0}
+  .doc{background:var(--paper); color:var(--ink); font-family:var(--sans);
+    font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 24px}
+  .num{font-variant-numeric:tabular-nums; font-family:var(--mono)}
+
+  /* ---------- header ---------- */
+  header.masthead{background:linear-gradient(180deg,#12161d 0%,#1b2430 100%); color:#eef1f0;
+    border-bottom:3px solid var(--accent); padding:52px 0 40px}
+  .eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+    color:#7fb8b1; margin:0 0 14px}
+  h1.title{font-family:var(--serif); font-weight:600; font-size:clamp(30px,4.6vw,46px);
+    line-height:1.08; margin:0 0 14px; text-wrap:balance; letter-spacing:-.01em}
+  .subtitle{font-size:18px; color:#c3cbd3; max-width:62ch; margin:0 0 26px}
+  .chips{display:flex; flex-wrap:wrap; gap:10px}
+  .chip{font-family:var(--mono); font-size:12.5px; letter-spacing:.02em; padding:6px 11px; border-radius:999px;
+    background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.15); color:#dfe5e9}
+  .chip b{color:#8fd0c8; font-weight:600}
+
+  /* ---------- sections ---------- */
+  section{padding:44px 0; border-bottom:1px solid var(--line)}
+  .kicker{display:flex; align-items:baseline; gap:14px; margin:0 0 6px}
+  .kicker .tag{font-family:var(--mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--accent); font-weight:700}
+  h2{font-family:var(--serif); font-weight:600; font-size:clamp(23px,3vw,31px); line-height:1.15;
+    margin:0 0 10px; text-wrap:balance; letter-spacing:-.01em}
+  h3{font-family:var(--serif); font-weight:600; font-size:20px; margin:30px 0 4px; color:var(--ink)}
+  .lead{font-size:17px; color:var(--ink-soft); max-width:70ch; margin:0 0 8px}
+  p{max-width:74ch}
+  a{color:var(--accent-ink)}
+
+  /* ---------- KPI tiles ---------- */
+  .kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; margin:22px 0 6px}
+  .kpi{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:18px 18px 16px;
+    position:relative; overflow:hidden}
+  .kpi::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--accent)}
+  .kpi .k-label{font-family:var(--mono); font-size:11.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted)}
+  .kpi .k-val{font-family:var(--serif); font-size:34px; font-weight:600; line-height:1.1; margin:8px 0 2px;
+    font-variant-numeric:tabular-nums}
+  .kpi .k-sub{font-size:13px; color:var(--ink-soft)}
+  .kpi.good::before{background:var(--pos)} .kpi.warn::before{background:var(--warn)}
+
+  /* ---------- tables ---------- */
+  .tscroll{overflow-x:auto; border:1px solid var(--line); border-radius:12px; background:var(--surface); margin:18px 0}
+  table{border-collapse:collapse; width:100%; font-size:14px}
+  caption{caption-side:top; text-align:left; font-family:var(--mono); font-size:11.5px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--muted); padding:12px 16px 2px}
+  thead th{position:sticky; top:0; background:#eef2f1; color:var(--accent-ink); text-align:right;
+    font-weight:600; font-size:12.5px; letter-spacing:.02em; padding:11px 14px; border-bottom:2px solid var(--line-strong); white-space:nowrap}
+  thead th:first-child{text-align:left}
+  tbody td{padding:9px 14px; border-bottom:1px solid var(--line); text-align:right;
+    font-variant-numeric:tabular-nums; font-family:var(--mono); font-size:13px; white-space:nowrap}
+  tbody td:first-child{text-align:left; font-family:var(--sans); font-size:13.5px; color:var(--ink); white-space:normal; min-width:170px}
+  tbody tr:nth-child(even){background:#faf9f6}
+  tbody tr:hover{background:var(--accent-soft)}
+  tbody tr.best{background:var(--pos-bg)!important}
+  tbody tr.best td:first-child{font-weight:600}
+  td.pos{color:var(--pos)} td.neg{color:var(--crit)}
+  .pill{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; letter-spacing:.04em;
+    padding:2px 7px; border-radius:999px; vertical-align:middle}
+  .pill.best{background:var(--pos-bg); color:var(--pos)} .pill.worst{background:var(--crit-bg); color:var(--crit)}
+  .pill.na{background:#eceae3; color:var(--muted)}
+
+  /* ---------- callouts ---------- */
+  .callout{border-radius:12px; padding:18px 20px; margin:20px 0; border:1px solid var(--line); background:var(--surface)}
+  .callout h4{margin:0 0 8px; font-family:var(--sans); font-size:14px; font-weight:700; letter-spacing:.02em;
+    display:flex; align-items:center; gap:9px}
+  .callout h4::before{content:""; width:9px; height:9px; border-radius:50%; background:var(--accent)}
+  .callout p, .callout ul{margin:6px 0; font-size:14.5px; color:var(--ink-soft)}
+  .callout.find{background:var(--accent-soft); border-color:#c4ded9}
+  .callout.find h4::before{background:var(--accent)}
+  .callout.warnbox{background:var(--warn-bg); border-color:#ecd9ad}
+  .callout.warnbox h4::before{background:var(--warn)}
+  .callout ul{padding-left:20px} .callout li{margin:5px 0}
+
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  @media(max-width:720px){.grid2{grid-template-columns:1fr}}
+
+  .matrix td:first-child{font-family:var(--mono); font-weight:600; font-size:12px; min-width:auto}
+  .matrix td{text-align:center}
+  .heat{color:#0b3b37}
+
+  footer{padding:40px 0 60px; color:var(--muted); font-size:13.5px}
+  .filelist{columns:2; column-gap:32px; font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); margin-top:10px}
+  @media(max-width:600px){.filelist{columns:1}}
+  .toc{display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 0}
+  .toc a{font-family:var(--mono); font-size:12.5px; text-decoration:none; color:var(--accent-ink);
+    border:1px solid var(--line-strong); border-radius:999px; padding:5px 12px; background:var(--surface)}
+  .toc a:hover{background:var(--accent-soft)}
+  .note{font-size:13px; color:var(--muted); font-style:italic; margin-top:6px}
+</style>
+
+<div class="doc">
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">EXIST 2026 · Task 2 · Equipo Ordantis</p>
+    <h1 class="title">Clasificación de memes sexistas:<br>informe de análisis para respuesta a revisores</h1>
+    <p class="subtitle">Batería completa de análisis reales generados sobre los 16 checkpoints entregados y la caché de Gemini, sin reentrenar y sin ninguna cifra estimada. Toda métrica proviene de ejecutar código sobre datos reales.</p>
+    <div class="chips">
+      <span class="chip">Evaluación en <b>VALIDACIÓN · n=598</b></span>
+      <span class="chip"><b>16</b> checkpoints + Gemini</span>
+      <span class="chip">GPU <b>RTX 4500 Ada</b> · torch 2.12 cu130</span>
+      <span class="chip">PyEvALL <b>0.2.11</b></span>
+      <span class="chip">Sin reentrenamiento</span>
+    </div>
+    <nav class="toc">
+      <a href="#resumen">Resumen ejecutivo</a>
+      <a href="#t0">T0· Verificación</a>
+      <a href="#t1">T1· Rendimiento</a>
+      <a href="#t2">T2· Calibración</a>
+      <a href="#t3">T3· Errores 2.3</a>
+      <a href="#t4">T4· Ablación Gemini</a>
+      <a href="#t5">T5· Parámetros</a>
+      <a href="#concl">Conclusiones</a>
+      <a href="#lim">Limitaciones</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== RESUMEN ===================== -->
+<section id="resumen">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Resumen ejecutivo</span></div>
+    <h2>Qué se midió y qué muestra</h2>
+    <p class="lead">Se cubren cinco frentes que los revisores señalaron: (1) métricas oficiales de todos los modelos, (2) calibración, (3) análisis de errores de la categorización, (4) cuantificación del aporte de Gemini y (5) tamaño de los modelos. Todo sobre las tres subtareas: 2.1 sexista sí/no, 2.2 intención (NO/DIRECT/JUDGEMENTAL), 2.3 categorización (5 categorías multilabel).</p>
+
+    <div class="kpis">
+      <div class="kpi good">
+        <div class="k-label">2.1 · mejor ICMSoft</div>
+        <div class="k-val">+0.596</div>
+        <div class="k-sub">Ensemble 0.6·VistaE + 0.4·Gemini · F1+ 0.856</div>
+      </div>
+      <div class="kpi">
+        <div class="k-label">2.2 · mejor ICM</div>
+        <div class="k-val">+0.113</div>
+        <div class="k-sub">Vista E-2.2 Longformer · F1macro 0.607</div>
+      </div>
+      <div class="kpi">
+        <div class="k-label">2.3 · mejor F1 macro</div>
+        <div class="k-val">0.715</div>
+        <div class="k-sub">Vista E-2.3 max512_v2 · ICM +0.342</div>
+      </div>
+      <div class="kpi good">
+        <div class="k-label">Calibración (Platt) 2.2/2.3</div>
+        <div class="k-val">−73%</div>
+        <div class="k-sub">ECE macro 0.131→0.036 y 0.094→0.035</div>
+      </div>
+    </div>
+
+    <div class="callout find">
+      <h4>Cuatro conclusiones de una línea</h4>
+      <ul>
+        <li><b>2.1 está resuelto y bien calibrado</b>: F1+ ≈ 0.86–0.88 en todas las variantes; el ensemble con Gemini es el más útil en soft.</li>
+        <li><b>2.2 es la subtarea difícil</b>: ICM cercano a 0; JUDGEMENTAL es la clase que hunde el macro (F1 ≈ 0.22–0.38).</li>
+        <li><b>Gemini contribuye poco como features numéricas (2.2) pero mucho como texto (2.3)</b>: quitar el texto de Gemini en 2.3 desploma F1macro 0.674→0.515.</li>
+        <li><b>El peor F1 de 2.3 es por confusión de frontera, no por rareza</b>: MISOGYNY-NSV (F1 0.556) se confunde con STEREOTYPING e IDEOLOGICAL.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== T0 ===================== -->
+<section id="t0">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Tarea 0</span></div>
+    <h2>Verificación del entorno y los datos</h2>
+    <p class="lead">Bloqueo inicial real: no existía el entorno de Python esperado (<span class="num">../.venv</span>) ni <span class="num">pip</span>. Se montó desde cero sin privilegios de administrador (bootstrap de pip vía <span class="num">get-pip.py</span>) e instaló la pila completa.</p>
+    <div class="grid2">
+      <div class="callout">
+        <h4>Todo verificado</h4>
+        <ul>
+          <li><span class="num">TRAIN_JSON</span> y <span class="num">TEST_JSON</span> resueltos por glob.</li>
+          <li>16 checkpoints: 3 en <span class="num">checkpoints/</span> + 13 en <span class="num">_alt/</span>.</li>
+          <li>Caché Gemini (<span class="num">gemini_predictions.json</span>), Ekman, sensor stats, ViT emb.</li>
+          <li>Split real: <b>train 3386 · val 598 · test 1053</b>. <span class="num">DEVICE=cuda</span>.</li>
+        </ul>
+      </div>
+      <div class="callout warnbox">
+        <h4>Dos bugs del harness corregidos sin tocar los originales</h4>
+        <ul>
+          <li><b>Nombre de función</b>: <span class="num">_full_eval_task23.py</span> llamaba <span class="num">load_t23()</span> cuando la real es <span class="num">load_task23()</span> → alias en runtime.</li>
+          <li><b>Tokenizers Longformer</b>: transformers 5.x requería <span class="num">sentencepiece</span>+<span class="num">protobuf</span> → instalados.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== T1 ===================== -->
+<section id="t1">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Tarea 1</span></div>
+    <h2>Métricas oficiales de todos los modelos</h2>
+    <p class="lead">28 filas evaluadas en validación: 16 checkpoints + Gemini crudo en cada subtarea + ensemble/blends + estrategias de decodificación de 2.2. Métricas ICM/ICMSoft con PyEvALL; F1 según subtarea. Fila resaltada = mejor de su bloque.</p>
+
+    <h3>Subtarea 2.1 — sexista sí / no (binario)</h3>
+    <div class="tscroll">
+      <table>
+        <caption>2.1 · F1 de la clase positiva, AUC-ROC, ICM, ICMSoft · threshold óptimo sobre ICM</caption>
+        <thead><tr><th>Modelo</th><th>F1+</th><th>AUC</th><th>ICM</th><th>ICMSoft</th><th>thr</th></tr></thead>
+        <tbody>
+          <tr><td>Vista E <span class="pill na">zip · M3_vista_E</span></td><td>0.8609</td><td>0.8839</td><td class="pos">+0.3855</td><td class="pos">+0.4798</td><td>0.55</td></tr>
+          <tr><td>Gemini 3-flash crudo</td><td>0.8748</td><td>0.8550</td><td class="pos">+0.3429</td><td class="pos">+0.2335</td><td>0.30</td></tr>
+          <tr class="best"><td>Ensemble 0.6·E + 0.4·Gemini <span class="pill best">mejor ICMSoft</span></td><td>0.8560</td><td>0.8886</td><td class="pos">+0.3733</td><td class="pos">+0.5957</td><td>0.67</td></tr>
+          <tr><td>Vista E-2.1 max512</td><td>0.8715</td><td>0.8852</td><td class="pos">+0.3944</td><td class="pos">+0.3025</td><td>0.60</td></tr>
+          <tr><td>Vista E-2.1 max512_R <span class="pill best">mejor ICM</span></td><td>0.8633</td><td>0.8925</td><td class="pos">+0.4088</td><td class="pos">+0.3878</td><td>0.61</td></tr>
+          <tr><td>Vista E-2.1 Longformer</td><td>0.8676</td><td>0.8833</td><td class="pos">+0.4008</td><td class="pos">+0.5428</td><td>0.57</td></tr>
+          <tr><td>Vista E-2.1 Longformer_R <span class="pill best">mejor F1+</span></td><td>0.8790</td><td>0.8843</td><td class="pos">+0.3801</td><td class="pos">+0.5334</td><td>0.50</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Las 4 variantes _alt (max512 / Longformer, con y sin "reasoning" R) rinden a la par del modelo del zip; ninguna mejora de forma decisiva. El AUC ≈ 0.88–0.89 es homogéneo.</p>
+
+    <h3>Subtarea 2.2 — intención: NO / DIRECT / JUDGEMENTAL</h3>
+    <div class="tscroll">
+      <table>
+        <caption>2.2 · checkpoint principal (vista_e_task22_best) — decodificaciones HARD y SOFT</caption>
+        <thead><tr><th>Estrategia</th><th>F1 macro</th><th>ICM</th><th>ICMNorm</th><th>ICMSoft</th><th>ICMSoftNorm</th><th>F1 [NO/DIR/JUD]</th></tr></thead>
+        <tbody>
+          <tr class="best"><td>HARD · VistaE + threshold ponderado <span class="pill best">mejor ICM hard</span></td><td>0.5597</td><td class="pos">+0.0349</td><td>0.513</td><td>—</td><td>—</td><td>0.78/0.65/0.25</td></tr>
+          <tr><td>HARD · VistaE argmax</td><td>0.5591</td><td class="neg">−0.1302</td><td>0.452</td><td>—</td><td>—</td><td>0.76/0.56/0.36</td></tr>
+          <tr><td>HARD · blend 0.6E+0.4G + thr <span class="pill best">mejor F1macro</span></td><td>0.5868</td><td class="pos">+0.0349</td><td>0.513</td><td>—</td><td>—</td><td>0.73/0.69/0.34</td></tr>
+          <tr><td>HARD · blend 0.6E+0.4G argmax</td><td>0.5594</td><td class="neg">−0.0447</td><td>0.484</td><td>—</td><td>—</td><td>0.67/0.67/0.33</td></tr>
+          <tr><td>HARD · Gemini crudo argmax</td><td>0.5497</td><td class="neg">−0.0786</td><td>0.471</td><td>—</td><td>—</td><td>0.65/0.67/0.33</td></tr>
+          <tr><td>SOFT · VistaE + Platt por clase</td><td>0.5059</td><td>—</td><td>—</td><td class="neg">−0.4388</td><td>0.454</td><td>CE=1.492</td></tr>
+          <tr><td>SOFT · VistaE raw</td><td>0.5591</td><td>—</td><td>—</td><td class="neg">−0.6787</td><td>0.429</td><td>CE=1.380</td></tr>
+          <tr><td>SOFT · blend + Platt por clase</td><td>0.5816</td><td>—</td><td>—</td><td class="neg">−0.2646</td><td>0.472</td><td>CE=1.485</td></tr>
+          <tr class="best"><td>SOFT · blend 0.6E+0.4G raw <span class="pill best">mejor ICMSoft</span></td><td>0.5594</td><td>—</td><td>—</td><td class="neg">−0.1571</td><td>0.484</td><td>CE=1.399</td></tr>
+          <tr><td>SOFT · Gemini crudo</td><td>0.5497</td><td>—</td><td>—</td><td class="neg">−2.5618</td><td>0.232</td><td>CE=2.045</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tscroll">
+      <table>
+        <caption>2.2 · variantes _alt (F1 macro con threshold 2D óptimo)</caption>
+        <thead><tr><th>Modelo</th><th>F1 macro (thr)</th><th>F1 macro (argmax)</th><th>ICM</th><th>ICMNorm</th><th>ICMSoft</th><th>F1 [NO/DIR/JUD]</th></tr></thead>
+        <tbody>
+          <tr><td>Vista E-2.2 max512</td><td>0.5456</td><td>0.5752</td><td class="neg">−0.0645</td><td>0.476</td><td class="neg">−0.6858</td><td>0.77/0.58/0.38</td></tr>
+          <tr><td>Vista E-2.2 max512_R</td><td>0.5669</td><td>0.5697</td><td class="neg">−0.0002</td><td>0.500</td><td class="neg">−0.8021</td><td>0.76/0.56/0.38</td></tr>
+          <tr class="best"><td>Vista E-2.2 Longformer <span class="pill best">mejor de 2.2</span></td><td>0.6073</td><td>0.5795</td><td class="pos">+0.1129</td><td>0.541</td><td class="neg">−0.6758</td><td>0.75/0.63/0.36</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout warnbox">
+      <h4>Lectura de 2.2</h4>
+      <p>El ICM ronda 0 en casi todo (el modelo apenas supera al baseline de PyEvALL). La clase <b>JUDGEMENTAL</b> es el cuello de botella: F1 entre 0.22 y 0.38 pese al sobre-muestreo y la focal loss. El único modelo con ICM claramente positivo es la variante <b>Longformer</b> (+0.113).</p>
+    </div>
+
+    <h3>Subtarea 2.3 — categorización (5 categorías, multilabel)</h3>
+    <div class="tscroll">
+      <table>
+        <caption>2.3 · 7 checkpoints + Gemini · F1 micro/macro, ICM, ICMNorm, ICMSoft, ICMSoftNorm</caption>
+        <thead><tr><th>Modelo</th><th>F1 micro</th><th>F1 macro</th><th>ICM</th><th>ICMNorm</th><th>ICMSoft</th><th>ICMSoftNorm</th></tr></thead>
+        <tbody>
+          <tr><td>Vista E-2.3 ORIGINAL <span class="pill na">zip</span></td><td>0.5496</td><td>0.6741</td><td class="pos">+0.2623</td><td>0.556</td><td class="neg">−2.7553</td><td>0.355</td></tr>
+          <tr><td>Vista E-2.3 max512</td><td>0.6238</td><td>0.7137</td><td class="pos">+0.3363</td><td>0.570</td><td class="neg">−4.5932</td><td>0.210</td></tr>
+          <tr class="best"><td>Vista E-2.3 max512_v2 <span class="pill best">mejor F1macro / ICM</span></td><td>0.6251</td><td>0.7146</td><td class="pos">+0.3417</td><td>0.571</td><td class="neg">−5.9912</td><td>0.121</td></tr>
+          <tr><td>Vista E-2.3 max512_R</td><td>0.6149</td><td>0.7135</td><td class="pos">+0.3331</td><td>0.569</td><td class="neg">−6.1419</td><td>0.112</td></tr>
+          <tr><td>Vista E-2.3 Longformer</td><td>0.5856</td><td>0.7051</td><td class="pos">+0.2647</td><td>0.555</td><td class="neg">−3.4947</td><td>0.279</td></tr>
+          <tr><td>Vista E-2.3 Longformer_v2</td><td>0.6188</td><td>0.7029</td><td class="pos">+0.2455</td><td>0.551</td><td class="neg">−5.1343</td><td>0.175</td></tr>
+          <tr><td>Vista E-2.3 Longformer_R</td><td>0.6144</td><td>0.7116</td><td class="pos">+0.3067</td><td>0.564</td><td class="neg">−5.4749</td><td>0.154</td></tr>
+          <tr><td>Gemini 3-flash crudo (2.3) <span class="pill worst">peor</span></td><td>0.5938</td><td>0.5367</td><td class="neg">−3.4148</td><td>0.000</td><td class="neg">−17.1151</td><td>0.000</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">El modelo del zip usa una arquitectura distinta (solo 5 sigmoides de categoría, sin cabeza de "sexista"); se evaluó con un evaluador dedicado y compuerta de sexista = máx. prob. de categoría. Por eso su ICMSoft no es 1:1 comparable con las variantes de 6 salidas. En F1 macro las variantes max512/v2/R superan al modelo del zip (0.71 vs 0.67); en ICM todos los modelos entrenados baten ampliamente a Gemini crudo.</p>
+  </div>
+</section>
+
+<!-- ===================== T2 ===================== -->
+<section id="t2">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Tarea 2</span></div>
+    <h2>Calibración — ECE, MCE, Brier y curvas de fiabilidad</h2>
+    <p class="lead">ECE (10 bins), MCE y Brier. Gold <b>hard</b> = voto mayoritario (umbral 0.5); reliability <b>soft</b> = prob. predicha vs proporción real de anotadores. Comparación antes/después de calibrar: temperature scaling y blend con Gemini en 2.1; Platt por clase en 2.2 y 2.3.</p>
+
+    <div class="tscroll">
+      <table>
+        <caption>Resumen antes → después (ECE-hard, menor es mejor)</caption>
+        <thead><tr><th>Subtarea · método</th><th>ECE raw</th><th>ECE calibrado</th><th>Δ</th></tr></thead>
+        <tbody>
+          <tr><td>2.1 Vista E · temperature (T=1.149)</td><td>0.1084</td><td>0.1330</td><td class="neg">empeora hard*</td></tr>
+          <tr class="best"><td>2.1 Vista E → Ensemble · blend 0.6/0.4</td><td>0.1084</td><td>0.0748</td><td class="pos">−0.034</td></tr>
+          <tr class="best"><td>2.2 VistaE22 (macro OvR) · Platt por clase</td><td>0.1314</td><td>0.0361</td><td class="pos">−0.095</td></tr>
+          <tr class="best"><td>2.3 VistaE23 (macro OvR) · Platt por clase</td><td>0.0944</td><td>0.0347</td><td class="pos">−0.060</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">*El temperature de 2.1 empeora el ECE-hard (el modelo ya estaba casi calibrado, T≈1.15) pero mejora el soft-ECE (0.0294→0.0190).</p>
+
+    <div class="tscroll">
+      <table>
+        <caption>2.1 · calibración global (binario)</caption>
+        <thead><tr><th>Modelo · método</th><th>ECE hard</th><th>MCE hard</th><th>Brier hard</th><th>ECE soft</th><th>Brier soft</th></tr></thead>
+        <tbody>
+          <tr><td>Vista E · raw</td><td>0.1084</td><td>0.2316</td><td>0.1397</td><td>0.0294</td><td>0.0481</td></tr>
+          <tr><td>Vista E · temperature</td><td>0.1330</td><td>0.2530</td><td>0.1451</td><td>0.0190</td><td>0.0477</td></tr>
+          <tr><td>Gemini crudo · raw</td><td>0.0814</td><td>0.5500</td><td>0.1438</td><td>0.1996</td><td>0.0915</td></tr>
+          <tr class="best"><td>Ensemble 0.6E+0.4G · blend</td><td>0.0748</td><td>0.2869</td><td>0.1287</td><td>0.0858</td><td>0.0528</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tscroll">
+      <table>
+        <caption>2.2 · ECE por clase (one-vs-rest) — raw vs Platt</caption>
+        <thead><tr><th>Clase</th><th>ECE raw</th><th>ECE Platt</th><th>MCE raw</th><th>MCE Platt</th><th>Brier raw</th><th>Brier Platt</th></tr></thead>
+        <tbody>
+          <tr><td>NO</td><td>0.0968</td><td>0.0396</td><td>0.2371</td><td>0.1163</td><td>0.1736</td><td>0.1604</td></tr>
+          <tr><td>DIRECT</td><td>0.1190</td><td>0.0524</td><td>0.3620</td><td>0.1105</td><td>0.1851</td><td>0.1628</td></tr>
+          <tr><td>JUDGEMENTAL</td><td>0.1782</td><td>0.0164</td><td>0.3845</td><td>0.4361</td><td>0.1238</td><td>0.0892</td></tr>
+          <tr class="best"><td>MACRO OvR</td><td>0.1314</td><td>0.0361</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tscroll">
+      <table>
+        <caption>2.3 · ECE por categoría (one-vs-rest) — raw vs Platt</caption>
+        <thead><tr><th>Categoría</th><th>ECE raw</th><th>ECE Platt</th><th>MCE raw</th><th>MCE Platt</th><th>Brier raw</th><th>Brier Platt</th></tr></thead>
+        <tbody>
+          <tr><td>IDEOLOGICAL-INEQUALITY</td><td>0.0828</td><td>0.0430</td><td>0.2039</td><td>0.1829</td><td>0.1260</td><td>0.1206</td></tr>
+          <tr><td>STEREOTYPING-DOMINANCE</td><td>0.0669</td><td>0.0337</td><td>0.1885</td><td>0.1238</td><td>0.1694</td><td>0.1631</td></tr>
+          <tr><td>OBJECTIFICATION</td><td>0.1004</td><td>0.0440</td><td>0.2062</td><td>0.2299</td><td>0.1364</td><td>0.1255</td></tr>
+          <tr><td>SEXUAL-VIOLENCE</td><td>0.1184</td><td>0.0279</td><td>0.1874</td><td>0.2574</td><td>0.0785</td><td>0.0666</td></tr>
+          <tr><td>MISOGYNY-NON-SEXUAL-VIOLENCE</td><td>0.1032</td><td>0.0247</td><td>0.4459</td><td>0.4548</td><td>0.0925</td><td>0.0826</td></tr>
+          <tr class="best"><td>MACRO OvR</td><td>0.0944</td><td>0.0347</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout find">
+      <h4>Lectura de calibración</h4>
+      <p><b>Platt por clase reduce el ECE-hard en ~70%</b> tanto en 2.2 como en 2.3, siendo la categoría cruda peor calibrada la clase JUDGEMENTAL (ECE 0.178→0.016). El coste es que a veces sube el soft-ECE (Platt se ajusta a etiquetas duras). En 2.1 el modelo ya está casi calibrado y el ensemble con Gemini es lo que más ayuda. <b>Figuras</b>: <span class="num">reliability_2_1.png</span>, <span class="num">reliability_2_2_perclass.png</span>, <span class="num">reliability_2_3_percat.png</span>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== T3 ===================== -->
+<section id="t3">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Tarea 3</span></div>
+    <h2>Análisis de errores de la categorización 2.3</h2>
+    <p class="lead">Modelo principal (vista_e_task23_best), validación. Umbrales óptimos: thr_sex=0.34, thr_cat=0.20. Multilabel → confusión binaria por categoría. Se contrasta frecuencia vs F1 para separar <b>rareza</b> de <b>confusión de frontera</b>.</p>
+
+    <div class="tscroll">
+      <table>
+        <caption>Rendimiento por categoría (ordenado por frecuencia gold)</caption>
+        <thead><tr><th>Categoría</th><th>freq gold</th><th>freq pred</th><th>F1</th><th>Precisión</th><th>Recall</th><th>TP</th><th>FP</th><th>FN</th><th>TN</th></tr></thead>
+        <tbody>
+          <tr><td>SEXUAL-VIOLENCE</td><td>153</td><td>196</td><td>0.6762</td><td>0.6020</td><td>0.7712</td><td>118</td><td>78</td><td>35</td><td>367</td></tr>
+          <tr class="best"><td>MISOGYNY-NON-SEXUAL-VIOLENCE <span class="pill worst">peor F1</span></td><td>186</td><td>246</td><td>0.5556</td><td>0.4878</td><td>0.6452</td><td>120</td><td>126</td><td>66</td><td>286</td></tr>
+          <tr><td>IDEOLOGICAL-INEQUALITY</td><td>239</td><td>296</td><td>0.6879</td><td>0.6216</td><td>0.7699</td><td>184</td><td>112</td><td>55</td><td>247</td></tr>
+          <tr><td>OBJECTIFICATION</td><td>262</td><td>266</td><td>0.7121</td><td>0.7068</td><td>0.7176</td><td>188</td><td>78</td><td>74</td><td>258</td></tr>
+          <tr><td>STEREOTYPING-DOMINANCE</td><td>301</td><td>314</td><td>0.7122</td><td>0.6975</td><td>0.7276</td><td>219</td><td>95</td><td>82</td><td>202</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Correlación Pearson frecuencia_gold ↔ F1 (n=5) = <b>+0.587</b>: la rareza explica parte, pero no todo.</p>
+
+    <div class="grid2">
+      <div class="tscroll">
+        <table class="matrix">
+          <caption>Co-ocurrencia en GOLD (nº de memes con ambas categorías)</caption>
+          <thead><tr><th>gold</th><th>IDE</th><th>STE</th><th>OBJ</th><th>SXV</th><th>MIS</th></tr></thead>
+          <tbody>
+            <tr><td>IDE</td><td>239</td><td>202</td><td>137</td><td>58</td><td>113</td></tr>
+            <tr><td>STE</td><td>202</td><td>301</td><td>193</td><td>98</td><td>144</td></tr>
+            <tr><td>OBJ</td><td>137</td><td>193</td><td>262</td><td>131</td><td>124</td></tr>
+            <tr><td>SXV</td><td>58</td><td>98</td><td>131</td><td>153</td><td>77</td></tr>
+            <tr><td>MIS</td><td>113</td><td>144</td><td>124</td><td>77</td><td>186</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tscroll">
+        <table class="matrix">
+          <caption>P(categoría predicha | categoría gold) — off-diagonal = confusión</caption>
+          <thead><tr><th>gold ↓</th><th>IDE</th><th>STE</th><th>OBJ</th><th>SXV</th><th>MIS</th></tr></thead>
+          <tbody>
+            <tr><td>IDE</td><td class="heat">.77</td><td>.73</td><td>.44</td><td>.29</td><td>.59</td></tr>
+            <tr><td>STE</td><td>.68</td><td class="heat">.73</td><td>.56</td><td>.40</td><td>.58</td></tr>
+            <tr><td>OBJ</td><td>.55</td><td>.65</td><td class="heat">.72</td><td>.58</td><td>.50</td></tr>
+            <tr><td>SXV</td><td>.37</td><td>.51</td><td>.75</td><td class="heat">.77</td><td>.43</td></tr>
+            <tr><td>MIS</td><td>.66</td><td>.71</td><td>.62</td><td>.45</td><td class="heat">.65</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="callout find">
+      <h4>Diagnóstico</h4>
+      <p><b>MISOGYNY-NON-SEXUAL-VIOLENCE es el outlier</b>: peor F1 (0.556) sin ser la más rara → confusión de frontera. Cuando el gold es MISOGYNY-NSV el modelo predice también STEREOTYPING (0.71) e IDEOLOGICAL (0.66). Otras confusiones fuertes: SEXUAL-VIOLENCE↔OBJECTIFICATION (0.75) e IDEOLOGICAL↔STEREOTYPING (0.73), coherentes con la altísima co-ocurrencia real (IDEOLOGICAL y STEREOTYPING juntas en 202 memes). Figura: <span class="num">confusion_2_3.png</span>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== T4 ===================== -->
+<section id="t4">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Tarea 4</span></div>
+    <h2>Ablación: cuánto aporta Gemini</h2>
+    <p class="lead">Mismo checkpoint, sin reentrenar. En 2.2 se ponen a cero las 7 features numéricas de Gemini en el forward. En 2.3 el modelo <b>no tiene features numéricas de Gemini</b> (solo texto+EEG+Ekman), así que la ablación equivalente es eliminar el texto de Gemini y dejar solo el OCR.</p>
+    <div class="tscroll">
+      <table>
+        <caption>Ablación del aporte de Gemini (validación)</caption>
+        <thead><tr><th>Condición</th><th>F1 macro</th><th>ICM</th><th>ICMNorm</th><th>ICMSoft</th><th>F1 [NO/DIR/JUD]</th></tr></thead>
+        <tbody>
+          <tr><td>2.2 normal (con 7 gfeat de Gemini)</td><td>0.5585</td><td class="pos">+0.0086</td><td>0.503</td><td>−0.6787</td><td>0.78/0.64/0.26</td></tr>
+          <tr><td>2.2 ablación (gfeat = 0)</td><td>0.5398</td><td class="neg">−0.0243</td><td>0.491</td><td>−0.7963</td><td>0.78/0.62/0.22</td></tr>
+          <tr><td>2.3 normal (texto con Gemini)</td><td>0.6741</td><td class="pos">+0.2623</td><td>0.556</td><td>−2.7553</td><td>—</td></tr>
+          <tr class="best"><td>2.3 ablación (solo OCR, sin texto Gemini) <span class="pill worst">caída fuerte</span></td><td>0.5151</td><td class="neg">−1.2259</td><td>0.239</td><td>−6.1976</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid2">
+      <div class="callout">
+        <h4>2.2 — features numéricas: aporte pequeño pero positivo</h4>
+        <p>Quitar las 7 features (<span class="num">sexist_prob, confidence, P_NO, P_DIRECT, P_JUDG, irony_flag, irony_conf</span>) baja F1macro <b>−0.019</b> e ICM <b>−0.033</b>. Ayudan, sobre todo a JUDGEMENTAL (0.26→0.22), pero no son decisivas.</p>
+      </div>
+      <div class="callout warnbox">
+        <h4>2.3 — el texto de Gemini es el motor</h4>
+        <p>Sin el texto de Gemini, F1macro cae <b>0.674 → 0.515</b> e ICM se desploma <b>+0.262 → −1.226</b>. La descripción y el análisis de sexismo de Gemini son el aporte dominante del modelo de categorización.</p>
+      </div>
+    </div>
+    <p class="note">Aclaración para revisores: el modelo 2.3 no admite "poner 6 features a cero" porque no existen esas entradas numéricas; las 11 features de desacuerdo son salida de una tarea auxiliar, no entrada.</p>
+  </div>
+</section>
+
+<!-- ===================== T5 ===================== -->
+<section id="t5">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Tarea 5</span></div>
+    <h2>Tamaño de los modelos</h2>
+    <p class="lead">Parámetros totales por checkpoint (backbone incluido), contados desde el <span class="num">state_dict</span> guardado; se excluyen buffers no-parámetro para igualar <span class="num">sum(p.numel())</span>. El coste lo domina el backbone de texto; las cabezas añaden &lt; 0.8 M.</p>
+    <div class="tscroll">
+      <table>
+        <caption>16 checkpoints · parámetros (M) y desglose backbone / cabezas</caption>
+        <thead><tr><th>Checkpoint</th><th>dir</th><th>Total (M)</th><th>Backbone texto (M)</th><th>Cabezas+ (M)</th><th>Fichero (MB)</th></tr></thead>
+        <tbody>
+          <tr><td>M3_vista_E_best <span class="pill na">2.1 zip</span></td><td>checkpoints</td><td>278.659</td><td>278.044</td><td>0.616</td><td>558.6</td></tr>
+          <tr><td>vista_e_task22_best <span class="pill na">2.2 zip</span></td><td>checkpoints</td><td>278.663</td><td>278.044</td><td>0.620</td><td>558.6</td></tr>
+          <tr><td>vista_e_task23_best <span class="pill na">2.3 zip</span></td><td>checkpoints</td><td>278.428</td><td>278.044</td><td>0.385</td><td>557.7</td></tr>
+          <tr><td>vista_e_task21_max512</td><td>_alt</td><td>278.659</td><td>278.044</td><td>0.616</td><td>558.6</td></tr>
+          <tr><td>vista_e_task21_max512_R</td><td>_alt</td><td>278.659</td><td>278.044</td><td>0.616</td><td>558.6</td></tr>
+          <tr><td>vista_e_task21_longformer</td><td>_alt</td><td>281.412</td><td>280.796</td><td>0.616</td><td>564.1</td></tr>
+          <tr><td>vista_e_task21_longformer_R</td><td>_alt</td><td>281.412</td><td>280.796</td><td>0.616</td><td>564.1</td></tr>
+          <tr><td>vista_e_task22_max512</td><td>_alt</td><td>278.663</td><td>278.044</td><td>0.620</td><td>558.6</td></tr>
+          <tr><td>vista_e_task22_max512_R</td><td>_alt</td><td>278.663</td><td>278.044</td><td>0.620</td><td>558.6</td></tr>
+          <tr><td>vista_e_task22_longformer</td><td>_alt</td><td>281.416</td><td>280.796</td><td>0.620</td><td>564.1</td></tr>
+          <tr><td>vista_e_task23_max512</td><td>_alt</td><td>278.795</td><td>278.044</td><td>0.751</td><td>559.2</td></tr>
+          <tr><td>vista_e_task23_max512_v2</td><td>_alt</td><td>278.795</td><td>278.044</td><td>0.751</td><td>559.2</td></tr>
+          <tr><td>vista_e_task23_max512_R</td><td>_alt</td><td>278.795</td><td>278.044</td><td>0.751</td><td>559.2</td></tr>
+          <tr><td>vista_e_task23_longformer</td><td>_alt</td><td>281.547</td><td>280.796</td><td>0.751</td><td>564.7</td></tr>
+          <tr><td>vista_e_task23_longformer_v2</td><td>_alt</td><td>281.547</td><td>280.796</td><td>0.751</td><td>564.7</td></tr>
+          <tr><td>vista_e_task23_longformer_R</td><td>_alt</td><td>281.547</td><td>280.796</td><td>0.751</td><td>564.7</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Familias XLM-R base ≈ 278.4–278.8 M; familias Longformer ≈ 281.4–281.5 M. Rango total: 278,428,166 – 281,547,271 parámetros.</p>
+  </div>
+</section>
+
+<!-- ===================== CONCLUSIONES ===================== -->
+<section id="concl">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Conclusiones</span></div>
+    <h2>Síntesis para el paper</h2>
+    <div class="callout find">
+      <h4>Rendimiento</h4>
+      <ul>
+        <li><b>2.1 (sexista sí/no):</b> tarea resuelta. F1+ 0.86–0.88 homogéneo entre variantes; el ensemble con Gemini maximiza ICMSoft (+0.596). Ninguna variante de longitud (max512/Longformer) ni "reasoning" mejora de forma decisiva sobre el modelo del zip.</li>
+        <li><b>2.2 (intención):</b> subtarea más difícil, ICM ≈ 0. El threshold ponderado bate al argmax; el blend con Gemini ayuda en soft. La variante Longformer es la única con ICM claramente positivo (+0.113). Cuello de botella persistente: JUDGEMENTAL.</li>
+        <li><b>2.3 (categorización):</b> F1 macro 0.70–0.71 en las variantes max512/v2/R (mejor que el 0.67 del zip). Todos los modelos entrenados superan de largo a Gemini crudo (ICM +0.34 vs −3.41).</li>
+      </ul>
+    </div>
+    <div class="callout find">
+      <h4>Calibración, errores y aporte de Gemini</h4>
+      <ul>
+        <li><b>Calibración:</b> los modelos están razonablemente calibrados en crudo (ECE 0.09–0.13) y <b>Platt por clase lo mejora ~70%</b> en 2.2/2.3. Se recomienda reportar ECE por clase, no solo global.</li>
+        <li><b>Errores 2.3:</b> el fallo dominante es <b>confusión de frontera entre categorías semánticamente próximas</b> (MISOGYNY-NSV ↔ STEREOTYPING/IDEOLOGICAL), no la escasez de datos (corr. freq-F1 = +0.59).</li>
+        <li><b>Gemini:</b> aporta poco como features numéricas (2.2: ΔF1 −0.02) pero es <b>determinante como texto en 2.3</b> (ΔF1 −0.16 al quitarlo). Es el argumento cuantitativo de por qué el pipeline usa Gemini como enriquecimiento textual.</li>
+        <li><b>Tamaño:</b> ~278–281 M parámetros, dominado por el backbone; las cabezas jerárquica/multilabel son marginales (&lt; 0.8 M).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LIMITACIONES ===================== -->
+<section id="lim">
+  <div class="wrap">
+    <div class="kicker"><span class="tag">Limitaciones</span></div>
+    <h2>Advertencias explícitas de honestidad</h2>
+    <div class="callout warnbox">
+      <ul>
+        <li><b>Todo es sobre VALIDACIÓN (n=598), nunca sobre TEST.</b> El test de EXIST no tiene gold público; cualquier métrica sobre test sería imposible sin inventar. Se generan las predicciones de test (submissions/zip) pero no se evalúan.</li>
+        <li><b>Calibración in-sample:</b> Platt y temperature se ajustan sobre la misma validación donde se mide el ECE (no hay tercer conjunto con gold). Las mejoras de ECE son cotas superiores optimistas.</li>
+        <li><b>Definición de gold hard:</b> voto mayoritario a 0.5; en 2.3 una categoría se considera presente si la marca &gt; 1/6 de los anotadores (coherente con el código original). Otras binarizaciones darían cifras algo distintas.</li>
+        <li><b>El modelo 2.3 principal no tiene cabeza de "sexista"</b>: su ICM se calculó con compuerta = máx. prob. de categoría; su ICMSoft no es 1:1 comparable con las variantes de 6 salidas.</li>
+        <li><b>Ablación 2.3 = ablación de TEXTO</b> (no de features numéricas, que no existen en ese modelo).</li>
+        <li>Se corrigieron dos bugs del harness (nombre <span class="num">load_t23</span> y tokenizers Longformer) sin reentrenar ni editar los scripts originales.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Reproducibilidad.</b> Cada cifra proviene de un script ejecutado sobre datos reales; los logs crudos están en <span class="num">resultados_revision/logs/</span>. Ficheros generados:</p>
+    <div class="filelist">
+      <div>metricas_18_modelos.csv</div>
+      <div>calibracion.csv</div>
+      <div>errores_2_3.csv</div>
+      <div>cooc_gold_2_3.csv · cooc_pred_2_3.csv</div>
+      <div>confus_goldcat_predcat_2_3.csv</div>
+      <div>ablacion_gemini_features.csv</div>
+      <div>parametros.csv</div>
+      <div>task21_variants.csv · task22_variants.csv</div>
+      <div>figuras/reliability_2_1.png</div>
+      <div>figuras/reliability_2_2_perclass.png</div>
+      <div>figuras/reliability_2_3_percat.png</div>
+      <div>figuras/confusion_2_3.png</div>
+      <div>errores_2_3_resumen.md · RESUMEN.md</div>
+    </div>
+    <p style="margin-top:22px; color:var(--muted)">EXIST 2026 · Task 2 · Equipo Ordantis · Análisis de revisión sobre validación (n=598) · Sin reentrenamiento · Ninguna cifra estimada.</p>
+  </div>
+</footer>
+</div>

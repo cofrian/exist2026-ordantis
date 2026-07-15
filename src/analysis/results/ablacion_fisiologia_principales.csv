@@ -1,0 +1,7 @@
+subtarea,checkpoint,condicion,F1,AUC,ICM,ICMSoft
+2.1,M3_vista_E_best,con_fisiologia,0.8609,0.8839,0.3855,
+2.1,M3_vista_E_best,sin_fisiologia(EEG+Ekman=0),0.8613,0.8833,0.3839,
+2.2,vista_e_task22_best,con_fisiologia,0.5585,,0.0086,
+2.2,vista_e_task22_best,sin_fisiologia(EEG+Ekman=0),0.5756,,0.0771,
+2.3,Vista E base (320),con_fisiologia,0.6750,,-2.1484,
+2.3,Vista E base (320),sin_fisiologia(EEG+Ekman=0),0.6881,,-1.9976,

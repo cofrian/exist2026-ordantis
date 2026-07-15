@@ -1,0 +1,29 @@
+subtask,model,checkpoint,F1,F1_name,AUC,ICM,ICMNorm,ICMSoft,ICMSoftNorm,extra,source
+2.1,Vista E,M3_vista_E_best.pt,0.8609,F1_pos,0.8839,+0.3855,,+0.4798,,thr=0.55,t1_task21_rerun.log
+2.1,Gemini 3-flash crudo,(Gemini API cache),0.8748,F1_pos,0.8550,+0.3429,,+0.2335,,thr=0.30,t1_task21_rerun.log
+2.1,Ensemble 0.6*E + 0.4*Gemini,M3_vista_E_best.pt + Gemini,0.8560,F1_pos,0.8886,+0.3733,,+0.5957,,thr=0.67,t1_task21_rerun.log
+2.1,Vista E-2.1 max512,vista_e_task21_max512_best.pt,0.8715,F1_pos,0.8852,+0.3944,,+0.3025,,thr=0.6,task21_variants.csv
+2.1,Vista E-2.1 max512_R,vista_e_task21_max512_R_best.pt,0.8633,F1_pos,0.8925,+0.4088,,+0.3878,,thr=0.61,task21_variants.csv
+2.1,Vista E-2.1 Longformer,vista_e_task21_longformer_best.pt,0.8676,F1_pos,0.8833,+0.4008,,+0.5428,,thr=0.57,task21_variants.csv
+2.1,Vista E-2.1 Longformer_R,vista_e_task21_longformer_R_best.pt,0.8790,F1_pos,0.8843,+0.3801,,+0.5334,,thr=0.5,task21_variants.csv
+2.2,[main] HARD VistaE + thr ponderado,vista_e_task22_best.pt,0.5597,F1_macro,,+0.0349,0.513,,,F1[N/D/J]=0.78/0.65/0.25,t1_task22_reeval.log
+2.2,[main] HARD VistaE argmax,vista_e_task22_best.pt,0.5591,F1_macro,,-0.1302,0.452,,,F1[N/D/J]=0.76/0.56/0.36,t1_task22_reeval.log
+2.2,[main] HARD blend 0.6E+0.4G + thr,vista_e_task22_best.pt,0.5868,F1_macro,,+0.0349,0.513,,,F1[N/D/J]=0.73/0.69/0.34,t1_task22_reeval.log
+2.2,[main] HARD blend 0.6E+0.4G argmax,vista_e_task22_best.pt,0.5594,F1_macro,,-0.0447,0.484,,,F1[N/D/J]=0.67/0.67/0.33,t1_task22_reeval.log
+2.2,[main] HARD Gemini crudo argmax,vista_e_task22_best.pt,0.5497,F1_macro,,-0.0786,0.471,,,F1[N/D/J]=0.65/0.67/0.33,t1_task22_reeval.log
+2.2,[main] SOFT VistaE + Platt por clase,vista_e_task22_best.pt,0.5059,F1_macro_argmax,,,,-0.4388,0.454,CE=1.492,t1_task22_reeval.log
+2.2,[main] SOFT VistaE raw,vista_e_task22_best.pt,0.5591,F1_macro_argmax,,,,-0.6787,0.429,CE=1.380,t1_task22_reeval.log
+2.2,[main] SOFT blend + Platt por clase,vista_e_task22_best.pt,0.5816,F1_macro_argmax,,,,-0.2646,0.472,CE=1.485,t1_task22_reeval.log
+2.2,[main] SOFT blend 0.6E+0.4G raw,vista_e_task22_best.pt,0.5594,F1_macro_argmax,,,,-0.1571,0.484,CE=1.399,t1_task22_reeval.log
+2.2,[main] SOFT Gemini crudo,vista_e_task22_best.pt,0.5497,F1_macro_argmax,,,,-2.5618,0.232,CE=2.045,t1_task22_reeval.log
+2.2,Vista E-2.2 max512,vista_e_task22_max512_best.pt,0.5456,F1_macro_thr,,-0.0645,0.4764,-0.6858,0.4283,argmax=0.5752; F1[N/D/J]=0.77/0.58/0.38,task22_variants.csv
+2.2,Vista E-2.2 max512_R,vista_e_task22_max512_R_best.pt,0.5669,F1_macro_thr,,-0.0002,0.4999,-0.8021,0.4162,argmax=0.5697; F1[N/D/J]=0.76/0.56/0.38,task22_variants.csv
+2.2,Vista E-2.2 Longformer,vista_e_task22_longformer_best.pt,0.6073,F1_macro_thr,,+0.1129,0.5414,-0.6758,0.4294,argmax=0.5795; F1[N/D/J]=0.75/0.63/0.36,task22_variants.csv
+2.3,Vista E-2.3 ORIGINAL (zip),vista_e_task23_best.pt,0.6741,F1_macro,,+0.2623,0.5558,-2.7553,0.3551,"F1micro=0.5496; thr_sex=0.34,thr_cat=0.20",t1_task23_main.log
+2.3,Vista E-2.3 max=512 (sin sampler),vista_e_task23_max512_best.pt,0.7137,F1_macro,,+0.3363,0.5696,-4.5932,0.2095,"F1micro=0.6238; thr_sex=0.30,thr_cat=0.15",t1_task23_full_fixed.log
+2.3,Vista E-2.3 Longformer (sin sampler),vista_e_task23_longformer_best.pt,0.7051,F1_macro,,+0.2647,0.5548,-3.4947,0.2790,"F1micro=0.5856; thr_sex=0.30,thr_cat=0.15",t1_task23_full_fixed.log
+2.3,Vista E-2.3 max=512_v2 (con sampler),vista_e_task23_max512_v2_best.pt,0.7146,F1_macro,,+0.3417,0.5707,-5.9912,0.1211,"F1micro=0.6251; thr_sex=0.30,thr_cat=0.15",t1_task23_full_fixed.log
+2.3,Vista E-2.3 Longformer_v2 (con sampler),vista_e_task23_longformer_v2_best.pt,0.7029,F1_macro,,+0.2455,0.5508,-5.1343,0.1753,"F1micro=0.6188; thr_sex=0.30,thr_cat=0.15",t1_task23_full_fixed.log
+2.3,Vista E-2.3 max=512_R (sampler+reasoning),vista_e_task23_max512_R_best.pt,0.7135,F1_macro,,+0.3331,0.5690,-6.1419,0.1116,"F1micro=0.6149; thr_sex=0.30,thr_cat=0.15",t1_task23_full_fixed.log
+2.3,Vista E-2.3 Longformer_R (sampler+reasoning),vista_e_task23_longformer_R_best.pt,0.7116,F1_macro,,+0.3067,0.5635,-5.4749,0.1538,"F1micro=0.6144; thr_sex=0.30,thr_cat=0.15",t1_task23_full_fixed.log
+2.3,Gemini 3-flash crudo (2.3),(Gemini API cache),0.5367,F1_macro,,-3.4148,0.0000,-17.1151,0.0000,F1micro=0.5938; ,t1_task23_full_fixed.log

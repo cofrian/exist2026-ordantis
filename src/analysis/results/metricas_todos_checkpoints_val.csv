@@ -1,0 +1,22 @@
+subtarea,sistema,metrica_F1,F1,F1_extra,ICM,ICMSoft,thr
+2.1,M3_vista_E_best,F1_pos,0.8609,AUC=0.8839,0.3855,0.4798,0.55
+2.1,vista_e_task21_max512,F1_pos,0.8715,AUC=0.8852,0.3944,0.3025,0.6
+2.1,vista_e_task21_max512_R,F1_pos,0.8633,AUC=0.8925,0.4088,0.3878,0.61
+2.1,vista_e_task21_longformer,F1_pos,0.8676,AUC=0.8833,0.4008,0.5428,0.57
+2.1,vista_e_task21_longformer_R,F1_pos,0.879,AUC=0.8843,0.3801,0.5334,0.5
+2.1,blend 0.6*M3_vista_E+0.4*Gemini,F1_pos,0.856,AUC=0.8886,0.3733,0.5956,0.67
+2.1,Gemini zero-shot,F1_pos,0.8748,AUC=0.8550,0.3429,0.2335,0.3
+2.2,vista_e_task22_best,F1_macro,0.5585,argmax=0.5591;N/D/J=0.78/0.64/0.26,0.0086,-0.6788,0.42/0.33
+2.2,vista_e_task22_max512,F1_macro,0.5456,argmax=0.5752;N/D/J=0.77/0.60/0.27,-0.0645,-0.6858,0.42/0.30
+2.2,vista_e_task22_max512_R,F1_macro,0.5669,argmax=0.5697;N/D/J=0.78/0.59/0.34,-0.0002,-0.8021,0.40/0.33
+2.2,vista_e_task22_longformer,F1_macro,0.6073,argmax=0.5795;N/D/J=0.77/0.67/0.38,0.1129,-0.6758,0.42/0.33
+2.2,blend 0.6*task22_best+0.4*Gemini,F1_macro,0.5842,argmax=0.5594;N/D/J=0.73/0.69/0.33,0.0217,-0.1572,0.42/0.50
+2.2,Gemini zero-shot,F1_macro,0.5541,argmax=0.5497;N/D/J=0.65/0.67/0.34,-0.0711,-2.5618,0.22/0.25
+2.3,vista_e_task23_best,F1_macro,0.6750,F1micro=0.6821,-2.1484,-12.1338,tsex0.30/tcat0.20
+2.3,vista_e_task23_max512,F1_macro,0.7137,F1micro=0.7224,0.3363,-4.5932,tsex0.30/tcat0.15
+2.3,vista_e_task23_max512_v2,F1_macro,0.7146,F1micro=0.7234,0.3417,-5.9912,tsex0.30/tcat0.15
+2.3,vista_e_task23_max512_R,F1_macro,0.7135,F1micro=0.7205,0.3331,-6.1419,tsex0.30/tcat0.15
+2.3,vista_e_task23_longformer,F1_macro,0.7051,F1micro=0.7179,0.2647,-3.4947,tsex0.30/tcat0.15
+2.3,vista_e_task23_longformer_v2,F1_macro,0.7029,F1micro=0.7140,0.2455,-5.1343,tsex0.30/tcat0.15
+2.3,vista_e_task23_longformer_R,F1_macro,0.7116,F1micro=0.7243,0.3067,-5.4749,tsex0.30/tcat0.15
+2.3,Gemini zero-shot,F1_macro,0.5974,F1micro=0.6056,-0.5943,-8.2406,tsex0.30/tcat0.15

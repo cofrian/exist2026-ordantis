@@ -1,0 +1,3 @@
+subtarea,checkpoint,condicion,F1_macro,ICM,decode
+2.3,Vista E base (320),con_fisiologia,0.675,-2.1484,"tsex0.30/tcat0.20 gate max-cat, gold oficial"
+2.3,Vista E base (320),sin_fisiologia(EEG+Ekman=0),0.6881,-1.9976,"tsex0.30/tcat0.20 gate max-cat, gold oficial"
